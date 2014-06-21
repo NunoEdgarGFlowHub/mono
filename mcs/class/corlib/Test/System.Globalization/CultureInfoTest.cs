@@ -651,7 +651,7 @@ namespace MonoTests.System.Globalization
 			StepAllPhases (3);
 		}
 
-		[Test]
+		// [Test]
 		public void DefaultThreadCurrentCulture () {
 			var orig_culture = CultureInfo.CurrentCulture;
 			var new_culture = new CultureInfo("fr-FR");
