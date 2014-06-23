@@ -58,7 +58,6 @@ Provides:       mono(Mono.Cairo) = 1.0.5000.0
 Provides:       mono(Mono.CompilerServices.SymbolWriter) = 1.0.5000.0
 Provides:       mono(Mono.Posix) = 1.0.5000.0
 Provides:       mono(Mono.Security) = 1.0.5000.0
-Provides:       mono(OpenSystem.C) = 1.0.5000.0
 Provides:       mono(System) = 1.0.5000.0
 Provides:       mono(System.Security) = 1.0.5000.0
 Provides:       mono(System.Xml) = 1.0.5000.0
@@ -206,7 +205,6 @@ rm -rf %buildroot
 %_prefix/lib/mono/2.0/Mono.Security.dll
 %_prefix/lib/mono/2.0/Mono.Simd.dll
 %_prefix/lib/mono/2.0/Mono.Tasklets.dll
-%_prefix/lib/mono/2.0/OpenSystem.C.dll
 %_prefix/lib/mono/2.0/System.Configuration.dll
 %_prefix/lib/mono/2.0/System.Core.dll
 %_prefix/lib/mono/2.0/System.Drawing.dll
@@ -237,7 +235,6 @@ rm -rf %buildroot
 %_prefix/lib/mono/4.0/Mono.Security.dll
 %_prefix/lib/mono/4.0/Mono.Simd.dll
 %_prefix/lib/mono/4.0/Mono.Tasklets.dll
-%_prefix/lib/mono/4.0/OpenSystem.C.dll
 %_prefix/lib/mono/4.0/System.Configuration.dll
 %_prefix/lib/mono/4.0/System.Core.dll
 %_prefix/lib/mono/4.0/System.Drawing.dll
@@ -285,7 +282,6 @@ rm -rf %buildroot
 %_prefix/lib/mono/4.5/Mono.Security.dll
 %_prefix/lib/mono/4.5/Mono.Simd.dll
 %_prefix/lib/mono/4.5/Mono.Tasklets.dll
-%_prefix/lib/mono/4.5/OpenSystem.C.dll
 %_prefix/lib/mono/4.5/System.Configuration.dll
 %_prefix/lib/mono/4.5/System.Core.dll
 %_prefix/lib/mono/4.5/System.Drawing.dll
@@ -328,7 +324,6 @@ rm -rf %buildroot
 %_prefix/lib/mono/gac/Mono.Security
 %_prefix/lib/mono/gac/Mono.Simd
 %_prefix/lib/mono/gac/Mono.Tasklets
-%_prefix/lib/mono/gac/OpenSystem.C
 %_prefix/lib/mono/gac/System
 %_prefix/lib/mono/gac/System.Configuration
 %_prefix/lib/mono/gac/System.Core
