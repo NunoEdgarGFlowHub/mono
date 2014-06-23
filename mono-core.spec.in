@@ -48,10 +48,6 @@ Conflicts:      banshee < 1.0
 Conflicts:      f-spot < 0.4
 Conflicts:      helix-banshee < 1.0
 Conflicts:      mono-addins < 0.3.1
-Recommends:     libgdiplus0 >= 2.6
-%if %llvm == yes
-Recommends:     libmono-llvm0 = %{version}-%{release}
-%endif
 Provides:       mono(Commons.Xml.Relaxng) = 1.0.5000.0
 Provides:       mono(CustomMarshalers) = 1.0.5000.0
 Provides:       mono(I18N) = 1.0.5000.0
