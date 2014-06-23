@@ -917,14 +917,12 @@ Mono implementation of ASP.NET, Remoting and Web Services.
 %_bindir/wsdl2
 %_bindir/xsd
 %_libdir/pkgconfig/aspnetwebstack.pc
-%_libdir/pkgconfig/mono.web.pc
 %_mandir/man1/disco.1%ext_man
 %_mandir/man1/mconfig.1%ext_man
 %_mandir/man1/soapsuds.1%ext_man
 %_mandir/man1/wsdl.1%ext_man
 %_mandir/man1/xsd.1%ext_man
 %_prefix/lib/mono/2.0/Mono.Http.dll
-%_prefix/lib/mono/2.0/Mono.Web.dll
 %_prefix/lib/mono/2.0/System.ComponentModel.DataAnnotations.dll
 %_prefix/lib/mono/2.0/System.Runtime.Remoting.dll
 %_prefix/lib/mono/2.0/System.Runtime.Serialization.Formatters.Soap.dll
@@ -936,7 +934,6 @@ Mono implementation of ASP.NET, Remoting and Web Services.
 %_prefix/lib/mono/2.0/xsd.exe*
 %_prefix/lib/mono/4.0/Microsoft.Web.Infrastructure.dll
 %_prefix/lib/mono/4.0/Mono.Http.dll
-%_prefix/lib/mono/4.0/Mono.Web.dll
 %_prefix/lib/mono/4.0/System.ComponentModel.Composition.dll
 %_prefix/lib/mono/4.0/System.ComponentModel.DataAnnotations.dll
 %_prefix/lib/mono/4.0/System.Runtime.Remoting.dll
@@ -947,7 +944,6 @@ Mono implementation of ASP.NET, Remoting and Web Services.
 %_prefix/lib/mono/4.0/System.Web.Services.dll
 %_prefix/lib/mono/4.0/System.Web.dll
 %_prefix/lib/mono/4.5/Mono.Http.dll
-%_prefix/lib/mono/4.5/Mono.Web.dll
 %_prefix/lib/mono/4.5/System.ComponentModel.Composition.dll
 %_prefix/lib/mono/4.5/System.ComponentModel.DataAnnotations.dll
 %_prefix/lib/mono/4.5/System.Net.Http.Formatting.dll
