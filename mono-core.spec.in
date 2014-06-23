@@ -127,7 +127,7 @@ rm -f %buildroot%_prefix/lib/mono/2.0/cilc.exe*
 ln -s . %buildroot%_prefix%_prefix
 RPM_BUILD_ROOT=%buildroot%_prefix /usr/lib/rpm/brp-compress
 rm %buildroot%_prefix%_prefix
-%fdupes %buildroot%_prefix
+# %fdupes %buildroot%_prefix
 %find_lang mcs
 
 %clean
