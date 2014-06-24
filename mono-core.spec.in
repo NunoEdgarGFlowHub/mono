@@ -100,7 +100,10 @@ export PATH=/opt/novell/llvm-mono/bin:$PATH
   --with-moonlight=no
 #make # We are not -jN safe! %{?jobs:-j%jobs}
 # We are now !
-make %{?_smp_mflags}
+#make %{?_smp_mflags}
+# Are we?  Some builds fail, notably with
+# make[3]: *** No rule to make target '../metadata/libmonoruntimesgen.la', needed by 'test-sgen-qsort'.  Stop.
+make
 
 %install
 make install DESTDIR=%buildroot
