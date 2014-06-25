@@ -1,4 +1,8 @@
-%{!?ext_man: %define ext_man .gz}
+%define ext_man .gz
+
+# Without this, we get: ERROR: No build ID note found in **.dll.so
+%define debug_package %{nil}
+
 %define llvm no
 %define sgen yes
 
