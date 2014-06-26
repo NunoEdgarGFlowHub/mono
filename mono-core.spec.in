@@ -92,9 +92,6 @@ export PATH=/opt/novell/llvm-mono/bin:$PATH
   --enable-loadedllvm \
   --disable-system-aot \
 %endif
-%ifnarch %ix86 x86_64
-  --disable-system-aot \
-%endif
   --with-ikvm=yes \
   --with-moonlight=no
 #make # We are not -jN safe! %{?jobs:-j%jobs}
