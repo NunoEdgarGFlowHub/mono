@@ -6,11 +6,6 @@
 %define llvm no
 %define sgen yes
 
-%ifnarch %ix86 x86_64
-%define llvm no
-%define sgen no
-%endif
-
 Name:           mono-core
 License:        LGPL v2.1 only
 Group:          Development/Languages/Mono
