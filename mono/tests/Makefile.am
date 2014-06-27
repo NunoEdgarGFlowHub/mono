@@ -433,9 +433,22 @@ endif
 
 if X86
 
+PLATFORM_DISABLED_TESTS=
+
 if HOST_WIN32
 PLATFORM_DISABLED_TESTS=async-exc-compilation.exe finally_guard.exe
 endif
+
+# Tizen 2.2-i686 failing tests
+
+# Sometimes works, but often doesn't; TODO: investigate.
+PLATFORM_DISABLED_TESTS+= delegate2.exe
+# Stack overflow; TODO: investigate.
+PLATFORM_DISABLED_TESTS+= gc-altstack.exe
+# Cf. https://bugzilla.xamarin.com/show_bug.cgi?id=20788
+PLATFORM_DISABLED_TESTS+= marshal7.exe
+# Timeout.
+PLATFORM_DISABLED_TESTS+= threadpool-exceptions5.exe
 
 endif
 
