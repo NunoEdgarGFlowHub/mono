@@ -7,7 +7,10 @@ PLATFORM_DEBUG_FLAGS = -debug
 PLATFORM_MCS_FLAGS =
 PLATFORM_RUNTIME = $(RUNTIME)
 PLATFORM_CORLIB = mscorlib.dll
-PLATFORM_TEST_HARNESS_EXCLUDES =
+
+# Some tests do not work on Tizen 2.2/ARM.  TODO: limit only on ARM
+# runs!
+PLATFORM_TEST_HARNESS_EXCLUDES = TizenArmNotWorking,
 
 EXTERNAL_MCS = gmcs
 EXTERNAL_MBAS = mbas
