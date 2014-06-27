@@ -610,6 +610,8 @@ namespace MonoTests.System.Net {
 	[TestFixture]
 	public class HttpListenerBugs {
 		[Test]
+		// TODO: Investigate
+		[Category ("TizenArmNotWorking")]
 		public void TestNonChunkedAsync ()
 		{
 			HttpListener listener = HttpListener2Test.CreateAndStartListener ("http://127.0.0.1:9123/");
