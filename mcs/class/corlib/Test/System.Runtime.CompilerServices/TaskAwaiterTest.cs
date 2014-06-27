@@ -270,6 +270,8 @@ namespace MonoTests.System.Runtime.CompilerServices
 		}
 
 		[Test]
+		// TODO: Investigate
+		[Category ("TizenArmNotWorking")]
 		public void CompletionOnDifferentCustomSynchronizationContext ()
 		{
 			mre = new ManualResetEvent (false);
