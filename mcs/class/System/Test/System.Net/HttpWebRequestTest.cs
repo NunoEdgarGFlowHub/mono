@@ -1522,7 +1522,7 @@ namespace MonoTests.System.Net
 			}
 		}
 
-		[Test] // 2nd possible case of https://bugzilla.novell.com/show_bug.cgi?id=MONO74177
+		//[Test] // 2nd possible case of https://bugzilla.novell.com/show_bug.cgi?id=MONO74177
 		public void TestTimeoutPropertyWithServerThatDoesntExist ()
 		{
 			string url = "http://10.128.200.100:8271/"; // some endpoint that is unlikely to exist
