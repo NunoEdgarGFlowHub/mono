@@ -57,6 +57,8 @@ public class SslStreamTest {
 	}
 
 	[Test] //bug https://bugzilla.novell.com/show_bug.cgi?id=457120
+	// TODO: Investigate
+	[Category ("TizenArmNotWorking")]
 	public void AuthenticateClientAndServer_ClientSendsNoData ()
 	{
 		AuthenticateClientAndServer (true, true);
@@ -94,6 +96,8 @@ public class SslStreamTest {
 	}
 
 	[Test]
+	// TODO: Investigate
+	[Category ("TizenArmNotWorking")]
 	public void ClientCipherSuitesCallback ()
 	{
 		try {
@@ -110,6 +114,8 @@ public class SslStreamTest {
 	}
 
 	[Test]
+	// TODO: Investigate
+	[Category ("TizenArmNotWorking")]
 	public void ServerCipherSuitesCallback ()
 	{
 		try {
@@ -126,6 +132,8 @@ public class SslStreamTest {
 	}
 
 	[Test]
+	// TODO: Investigate
+	[Category ("TizenArmNotWorking")]
 	public void CipherSuitesCallbacks ()
 	{
 		try {
