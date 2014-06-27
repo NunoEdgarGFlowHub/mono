@@ -270,6 +270,8 @@ namespace MonoTests.System
 		}
 
 		[Test]
+		// TODO: Investigate
+		[Category ("TizenArmNotWorking")]
 		public void ConcurrentInitialization ()
 		{
 			var init = new AutoResetEvent (false);

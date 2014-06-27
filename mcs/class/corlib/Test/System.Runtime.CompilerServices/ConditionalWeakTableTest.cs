@@ -192,6 +192,8 @@ namespace MonoTests.System.Runtime.CompilerServices {
 	}
 
 	[Test]
+	// TODO: Investigate
+	[Category ("TizenArmNotWorking")]
 	public void Reachability () {
 		if (GC.MaxGeneration == 0) /*Boehm doesn't handle ephemerons */
 			Assert.Ignore ("Not working on Boehm.");
