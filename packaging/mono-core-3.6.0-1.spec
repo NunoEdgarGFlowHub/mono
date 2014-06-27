@@ -18,11 +18,7 @@ BuildRequires:  bison
 BuildRequires:  fdupes
 BuildRequires:  gcc-c++
 BuildRequires:  pkgconfig
-BuildRequires:  xorg-x11-libX11-devel
 BuildRequires:  zlib-devel
-%ifnarch ia64
-BuildRequires:  valgrind-devel
-%endif
 %if %llvm == yes
 BuildRequires:  llvm-mono-devel
 %endif
