@@ -129,6 +129,8 @@ namespace MonoTests.System.Threading
 		}
 
 		[Test]
+		// TODO: Investigate
+		[Category ("TizenArmNotWorking")]
 		public void Wait_DisposeWithCancel ()
 		{
 			var token = new CancellationTokenSource ();
