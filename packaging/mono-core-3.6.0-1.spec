@@ -1,5 +1,8 @@
 %define ext_man .gz
 
+# Mono's configure thinks we are cross-compiling if these are not equal.
+%define _target_platform %{_host}
+
 # Without this, we get: ERROR: No build ID note found in **.dll.so
 %define debug_package %{nil}
 
