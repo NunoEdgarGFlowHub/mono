@@ -99,6 +99,21 @@ mono_hwcap_arch_init (void)
 	}
 
 	/* TODO: Find a way to detect features like Thumb and VFP. */
+
+#elif defined(__ARM_ARCH_7A__)
+        mono_hwcap_arm_is_v5 = TRUE;
+        mono_hwcap_arm_is_v6 = TRUE;
+        mono_hwcap_arm_is_v7 = TRUE;
+#if defined(__thumb__)
+        mono_hwcap_arm_has_thumb = TRUE;
+#endif
+#if defined(__thumb2__)
+        mono_hwcap_arm_has_thumb2 = TRUE;
+#endif
+#if defined(__VFP_FP__)
+        mono_hwcap_arm_has_vfp = TRUE;
+#endif
+
 #else
 	/* We can't use the auxiliary vector on Android due to
 	 * permissions, so fall back to /proc/cpuinfo. We also
