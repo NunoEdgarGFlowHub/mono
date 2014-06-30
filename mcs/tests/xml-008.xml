@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>test-xml-008</name>
+    </assembly>
+    <members>
+        <member name="T:Testing.Test">
+            comment without markup on class - it is allowed</member>
+        <!--FIXME: Invalid documentation markup was found for member T:Testing.Test2-->
+        <!--FIXME: Invalid documentation markup was found for member T:Testing.Test3-->
+    </members>
+</doc>

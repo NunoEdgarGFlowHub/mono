@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="Mono.Posix_test_net_4_5.dll" total="171" failures="0" not-run="0" date="2014-06-29" time="12:36:01">
+  <environment nunit-version="2.4.8.0" clr-version="4.0.30319.17020" os-version="Unix 3.15.0.8" platform="Unix" cwd="/store/dash/mono-tizen/mono-sources/mcs/class/Mono.Posix" machine-name="mini" user="dash" user-domain="mini" />
+  <culture-info current-culture="" current-uiculture="" />
+  <test-suite name="Mono.Posix_test_net_4_5.dll" success="True" time="19.571" asserts="0">
+    <results>
+      <test-suite name="MonoTests" success="True" time="19.565" asserts="0">
+        <results>
+          <test-suite name="Mono" success="True" time="19.272" asserts="0">
+            <results>
+              <test-suite name="Unix" success="True" time="19.271" asserts="0">
+                <results>
+                  <test-suite name="Native" success="True" time="0.046" asserts="0">
+                    <results>
+                      <test-suite name="RealTimeSignumTest" success="True" time="0.037" asserts="0">
+                        <categories>
+                          <category name="NotOnMac" />
+                        </categories>
+                        <results>
+                          <test-case name="MonoTests.Mono.Unix.Native.RealTimeSignumTest.TestIsRTSignalPropertyForRTSignum" executed="True" success="True" time="0.015" asserts="1" />
+                          <test-case name="MonoTests.Mono.Unix.Native.RealTimeSignumTest.TestIsRTSignalPropertyForSignum" executed="True" success="True" time="0.001" asserts="1" />
+                          <test-case name="MonoTests.Mono.Unix.Native.RealTimeSignumTest.TestRealTimeOutOfRange" executed="True" success="True" time="0.002" asserts="0" />
+                          <test-case name="MonoTests.Mono.Unix.Native.RealTimeSignumTest.TestRealTimeSignumNegativeOffset" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Unix.Native.RealTimeSignumTest.TestRTSignalEquality" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.Mono.Unix.Native.RealTimeSignumTest.TestRTSignalGetHashCodeEquality" executed="True" success="True" time="0.001" asserts="1" />
+                          <test-case name="MonoTests.Mono.Unix.Native.RealTimeSignumTest.TestRTSignalGetHashCodeInequality" executed="True" success="True" time="0.002" asserts="1" />
+                          <test-case name="MonoTests.Mono.Unix.Native.RealTimeSignumTest.TestRTSignalInequality" executed="True" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite name="ReadlinkTest" success="True" time="0.049" asserts="0">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                    <results>
+                      <test-case name="MonoTests.Mono.Unix.ReadlinkTest.ReadLink" executed="True" success="True" time="0.018" asserts="24" />
+                      <test-case name="MonoTests.Mono.Unix.ReadlinkTest.readlink_byte" executed="True" success="True" time="0.004" asserts="60" />
+                      <test-case name="MonoTests.Mono.Unix.ReadlinkTest.readlink_char" executed="True" success="True" time="0.004" asserts="138" />
+                      <test-case name="MonoTests.Mono.Unix.ReadlinkTest.ReadLinkAt" executed="True" success="True" time="0.003" asserts="24" />
+                      <test-case name="MonoTests.Mono.Unix.ReadlinkTest.readlinkat_byte" executed="True" success="True" time="0.003" asserts="60" />
+                      <test-case name="MonoTests.Mono.Unix.ReadlinkTest.readlinkat_char" executed="True" success="True" time="0.003" asserts="138" />
+                      <test-case name="MonoTests.Mono.Unix.ReadlinkTest.ReadlinkMultiByteChar" executed="True" success="True" time="0.001" asserts="4" />
+                      <test-case name="MonoTests.Mono.Unix.ReadlinkTest.TryReadLink" executed="True" success="True" time="0.003" asserts="24" />
+                      <test-case name="MonoTests.Mono.Unix.ReadlinkTest.TryReadLinkAt" executed="True" success="True" time="0.003" asserts="24" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="UnixEncodingTest" success="True" time="0.103" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.BinaryFilename" executed="True" success="True" time="0.002" asserts="22" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.GetCharsFEFF" executed="True" success="True" time="0.001" asserts="3" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.SjisFilename" executed="True" success="True" time="0.003" asserts="38" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.SjisFilename2" executed="True" success="True" time="0.001" asserts="66" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T1_Correct_GreekWord_kosme" executed="True" success="True" time="0.001" asserts="1" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T2_Boundary_1_FirstPossibleSequence_Fail_5" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T2_Boundary_1_FirstPossibleSequence_Fail_6" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T2_Boundary_1_FirstPossibleSequence_Pass" executed="True" success="True" time="0.001" asserts="9" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T2_Boundary_2_LastPossibleSequence_Fail_4" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T2_Boundary_2_LastPossibleSequence_Fail_5" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T2_Boundary_2_LastPossibleSequence_Fail_6" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T2_Boundary_2_LastPossibleSequence_Pass" executed="True" success="True" time="0.001" asserts="6" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T2_Boundary_3_Other_Fail_5" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T2_Boundary_3_Other_Pass" executed="True" success="True" time="0.001" asserts="9" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T3_Malformed_1_UnexpectedContinuation_311" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T3_Malformed_1_UnexpectedContinuation_312" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T3_Malformed_1_UnexpectedContinuation_313" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T3_Malformed_1_UnexpectedContinuation_314" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T3_Malformed_1_UnexpectedContinuation_315" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T3_Malformed_1_UnexpectedContinuation_316" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T3_Malformed_1_UnexpectedContinuation_317" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T3_Malformed_1_UnexpectedContinuation_318" executed="True" success="True" time="0.001" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T3_Malformed_1_UnexpectedContinuation_319" executed="True" success="True" time="0.001" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T3_Malformed_2_LonelyStart_321" executed="True" success="True" time="0.001" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T3_Malformed_2_LonelyStart_322" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T3_Malformed_2_LonelyStart_323" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T3_Malformed_2_LonelyStart_324" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T3_Malformed_2_LonelyStart_325" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T3_Malformed_3_LastContinuationMissing_331" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T3_Malformed_3_LastContinuationMissing_3310" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T3_Malformed_3_LastContinuationMissing_332" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T3_Malformed_3_LastContinuationMissing_333" executed="True" success="True" time="0.001" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T3_Malformed_3_LastContinuationMissing_334" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T3_Malformed_3_LastContinuationMissing_335" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T3_Malformed_3_LastContinuationMissing_336" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T3_Malformed_3_LastContinuationMissing_337" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T3_Malformed_3_LastContinuationMissing_338" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T3_Malformed_3_LastContinuationMissing_339" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T3_Malformed_4_ConcatenationImcomplete" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T3_Malformed_5_ImpossibleBytes_351" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T3_Malformed_5_ImpossibleBytes_352" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T3_Malformed_5_ImpossibleBytes_353" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T4_Overlong_1_ASCII_Slash_411" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T4_Overlong_1_ASCII_Slash_412" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T4_Overlong_1_ASCII_Slash_413" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T4_Overlong_1_ASCII_Slash_414" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T4_Overlong_1_ASCII_Slash_415" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T4_Overlong_2_MaximumBoundary_421" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T4_Overlong_2_MaximumBoundary_422" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T4_Overlong_2_MaximumBoundary_423" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T4_Overlong_2_MaximumBoundary_424" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T4_Overlong_2_MaximumBoundary_425" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T4_Overlong_3_NUL_431" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T4_Overlong_3_NUL_432" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T4_Overlong_3_NUL_433" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T4_Overlong_3_NUL_434" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T4_Overlong_3_NUL_435" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T5_IllegalCodePosition_1_UTF16Surrogates_511" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T5_IllegalCodePosition_1_UTF16Surrogates_512" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T5_IllegalCodePosition_1_UTF16Surrogates_513" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T5_IllegalCodePosition_1_UTF16Surrogates_514" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T5_IllegalCodePosition_1_UTF16Surrogates_515" executed="True" success="True" time="0.001" asserts="1" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T5_IllegalCodePosition_1_UTF16Surrogates_516" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T5_IllegalCodePosition_1_UTF16Surrogates_517" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T5_IllegalCodePosition_2_PairedUTF16Surrogates_521" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T5_IllegalCodePosition_2_PairedUTF16Surrogates_522" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T5_IllegalCodePosition_2_PairedUTF16Surrogates_523" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T5_IllegalCodePosition_2_PairedUTF16Surrogates_524" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T5_IllegalCodePosition_2_PairedUTF16Surrogates_525" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T5_IllegalCodePosition_2_PairedUTF16Surrogates_526" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T5_IllegalCodePosition_2_PairedUTF16Surrogates_527" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T5_IllegalCodePosition_2_PairedUTF16Surrogates_528" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T5_IllegalCodePosition_3_Other_531" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.T5_IllegalCodePosition_3_Other_532" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.TestDecodingGetChars1" executed="True" success="True" time="0.000" asserts="4" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.TestEncodingGetBytes1" executed="True" success="True" time="0.000" asserts="7" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.TestEncodingGetBytes2" executed="True" success="True" time="0.001" asserts="12" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.TestMaxByteCount" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.TestMaxCharCount" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.Mono.Unix.UnixEncodingTest.TestThrowOnInvalid" executed="True" success="True" time="0.001" asserts="18" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="UnixGroupTest" success="True" time="0.151" asserts="0">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                    <results>
+                      <test-case name="MonoTests.Mono.Unix.UnixGroupTest.Equality" executed="True" success="True" time="0.001" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixGroupTest.InvalidGroups_Constructor_Name" executed="True" success="True" time="0.004" asserts="0" />
+                      <test-case name="MonoTests.Mono.Unix.UnixGroupTest.InvalidGroups_Syscall_Name" executed="True" success="True" time="0.002" asserts="3" />
+                      <test-case name="MonoTests.Mono.Unix.UnixGroupTest.ListAllGroups_ToString" executed="True" success="True" time="0.114" asserts="0" />
+                      <test-case name="MonoTests.Mono.Unix.UnixGroupTest.NonReentrantSyscalls" executed="True" success="True" time="0.007" asserts="465" />
+                      <test-case name="MonoTests.Mono.Unix.UnixGroupTest.ReentrantConstructors" executed="True" success="True" time="0.019" asserts="279" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="UnixMarshalTest" success="True" time="0.013" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Unix.UnixMarshalTest.TestPtrToString" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="MonoTests.Mono.Unix.UnixMarshalTest.TestStringToHeap" executed="True" success="True" time="0.011" asserts="11" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="UnixPathTest" success="True" time="0.003" asserts="0">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                    <results>
+                      <test-case name="MonoTests.Mono.Unix.UnixPathTest.Combine" executed="True" success="True" time="0.002" asserts="12" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="UnixSignalTest" success="True" time="18.831" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Unix.UnixSignalTest.TestAddRemove" executed="True" success="True" time="0.416" asserts="1">
+                        <categories>
+                          <category name="NotOnMac" />
+                        </categories>
+                      </test-case>
+                      <test-case name="MonoTests.Mono.Unix.UnixSignalTest.TestCanRegisterRTSignalMultipleTimes" executed="True" success="True" time="0.000" asserts="0">
+                        <categories>
+                          <category name="NotOnMac" />
+                        </categories>
+                      </test-case>
+                      <test-case name="MonoTests.Mono.Unix.UnixSignalTest.TestConcurrentWaitOne" executed="True" success="True" time="1.004" asserts="6" />
+                      <test-case name="MonoTests.Mono.Unix.UnixSignalTest.TestConcurrentWaitOneSameInstance" executed="True" success="True" time="0.501" asserts="4" />
+                      <test-case name="MonoTests.Mono.Unix.UnixSignalTest.TestDispose1" executed="True" success="True" time="0.001" asserts="3" />
+                      <test-case name="MonoTests.Mono.Unix.UnixSignalTest.TestDispose2" executed="True" success="True" time="0.000" asserts="3" />
+                      <test-case name="MonoTests.Mono.Unix.UnixSignalTest.TestNestedInvocation" executed="True" success="True" time="1.002" asserts="0" />
+                      <test-case name="MonoTests.Mono.Unix.UnixSignalTest.TestNoEmit" executed="True" success="True" time="5.106" asserts="1" />
+                      <test-case name="MonoTests.Mono.Unix.UnixSignalTest.TestNoEmitAny" executed="True" success="True" time="5.103" asserts="1" />
+                      <test-case name="MonoTests.Mono.Unix.UnixSignalTest.TestRaise" executed="True" success="True" time="1.002" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixSignalTest.TestRaiseAny" executed="True" success="True" time="1.003" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixSignalTest.TestRaiseRTMINPlusOneSignal" executed="True" success="True" time="1.003" asserts="2">
+                        <categories>
+                          <category name="NotOnMac" />
+                        </categories>
+                      </test-case>
+                      <test-case name="MonoTests.Mono.Unix.UnixSignalTest.TestRaiseRTMINSignal" executed="True" success="True" time="1.002" asserts="2">
+                        <categories>
+                          <category name="NotOnMac" />
+                        </categories>
+                      </test-case>
+                      <test-case name="MonoTests.Mono.Unix.UnixSignalTest.TestRaiseStorm" executed="True" success="True" time="0.209" asserts="1">
+                        <categories>
+                          <category name="NotOnMac" />
+                        </categories>
+                      </test-case>
+                      <test-case name="MonoTests.Mono.Unix.UnixSignalTest.TestRealTimeCstor" executed="True" success="True" time="0.001" asserts="2">
+                        <categories>
+                          <category name="NotOnMac" />
+                        </categories>
+                      </test-case>
+                      <test-case name="MonoTests.Mono.Unix.UnixSignalTest.TestRealTimePropertyThrows" executed="True" success="True" time="0.000" asserts="0">
+                        <categories>
+                          <category name="NotOnMac" />
+                        </categories>
+                      </test-case>
+                      <test-case name="MonoTests.Mono.Unix.UnixSignalTest.TestRealTimeSignumProperty" executed="True" success="True" time="0.003" asserts="1">
+                        <categories>
+                          <category name="NotOnMac" />
+                        </categories>
+                      </test-case>
+                      <test-case name="MonoTests.Mono.Unix.UnixSignalTest.TestSeparation" executed="True" success="True" time="1.002" asserts="3" />
+                      <test-case name="MonoTests.Mono.Unix.UnixSignalTest.TestSignalActionInteraction" executed="True" success="True" time="0.001" asserts="1" />
+                      <test-case name="MonoTests.Mono.Unix.UnixSignalTest.TestSignumProperty" executed="True" success="True" time="0.001" asserts="1" />
+                      <test-case name="MonoTests.Mono.Unix.UnixSignalTest.TestSignumPropertyThrows" executed="True" success="True" time="0.000" asserts="0">
+                        <categories>
+                          <category name="NotOnMac" />
+                        </categories>
+                      </test-case>
+                      <test-case name="MonoTests.Mono.Unix.UnixSignalTest.TestWaitAny" executed="True" success="True" time="0.459" asserts="4">
+                        <categories>
+                          <category name="NotOnMac" />
+                        </categories>
+                      </test-case>
+                      <test-case name="MonoTests.Mono.Unix.UnixSignalTest.TestWaitAnyFailsWithMore64Signals" executed="True" success="True" time="0.001" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="UnixUserTest" success="True" time="0.051" asserts="0">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                    <results>
+                      <test-case name="MonoTests.Mono.Unix.UnixUserTest.Equality" executed="True" success="True" time="0.001" asserts="2" />
+                      <test-case name="MonoTests.Mono.Unix.UnixUserTest.InvalidUsers_Constructor_Name" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="MonoTests.Mono.Unix.UnixUserTest.InvalidUsers_Syscall_Name" executed="True" success="True" time="0.001" asserts="3" />
+                      <test-case name="MonoTests.Mono.Unix.UnixUserTest.ListAllUsers_ToString" executed="True" success="True" time="0.033" asserts="0" />
+                      <test-case name="MonoTests.Mono.Unix.UnixUserTest.NonReentrantSyscalls" executed="True" success="True" time="0.008" asserts="248">
+                        <categories>
+                          <category name="NotOnMac" />
+                        </categories>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite name="System" success="True" time="0.262" asserts="0">
+            <results>
+              <test-suite name="IO" success="True" time="0.258" asserts="0">
+                <results>
+                  <test-suite name="StdioFileStreamTest" success="True" time="0.257" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.CtorAccess1Read2Read" executed="True" success="True" time="0.187" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.CtorArgumentException1" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.CtorArgumentException3" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.CtorArgumentNullException" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.CtorArgumentOutOfRangeException1" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.CtorArgumentOutOfRangeException2" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.CtorDirectoryNotFoundException" executed="True" success="True" time="0.003" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.CtorFileNotFoundException1" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.CtorFileNotFoundException2" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.CtorIOException1" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.Flush" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.Flush_Disposed" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.Length" executed="True" success="True" time="0.002" asserts="1" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.Position_Disposed" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.PositionAfterWrite" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.Read_CountNegative" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.Read_CountOverflow" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.Read_OffsetNegative" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.Read_OffsetOverflow" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.ReadBytePastEndOfStream" executed="True" success="True" time="0.001" asserts="1" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.Seek" executed="True" success="True" time="0.001" asserts="10" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.Seek_Disposed" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.Seek_InvalidSeekOrigin" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.SetLengthWithClosedBaseStream" executed="True" success="True" time="0.002" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.TestClose" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.TestDefaultProperties" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.TestFlushNotOwningHandle" executed="True" success="True" time="0.002" asserts="1" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.TestReadByteVerifyAccessMode" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.TestReadVerifyAccessMode" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.TestSeek" executed="True" success="True" time="0.001" asserts="9" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.TestWriteByteVerifyAccessMode" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.TestWriteVerifyAccessMode" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.Write" executed="True" success="True" time="0.001" asserts="30" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.Write_CountNegative" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.Write_CountOverflow" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.Write_OffsetNegative" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="MonoTests.System.IO.StdioFileStreamTest.Write_OffsetOverflow" executed="True" success="True" time="0.001" asserts="0" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="System.Runtime.Serialization.Formatters.Soap_test_net_4_5.dll" total="15" failures="0" not-run="0" date="2014-06-29" time="12:36:54">
+  <environment nunit-version="2.4.8.0" clr-version="4.0.30319.17020" os-version="Unix 3.15.0.8" platform="Unix" cwd="/store/dash/mono-tizen/mono-sources/mcs/class/System.Runtime.Serialization.Formatters.Soap" machine-name="mini" user="dash" user-domain="mini" />
+  <culture-info current-culture="" current-uiculture="" />
+  <test-suite name="System.Runtime.Serialization.Formatters.Soap_test_net_4_5.dll" success="True" time="0.302" asserts="0">
+    <results>
+      <test-suite name="MonoTests" success="True" time="0.263" asserts="0">
+        <results>
+          <test-suite name="System" success="True" time="0.263" asserts="0">
+            <results>
+              <test-suite name="Runtime" success="True" time="0.262" asserts="0">
+                <results>
+                  <test-suite name="Serialization" success="True" time="0.262" asserts="0">
+                    <results>
+                      <test-suite name="Formatters" success="True" time="0.262" asserts="0">
+                        <results>
+                          <test-suite name="Soap" success="True" time="0.262" asserts="0">
+                            <results>
+                              <test-suite name="SerializationCallbackTest" success="True" time="0.075" asserts="0">
+                                <results>
+                                  <test-case name="MonoTests.System.Runtime.Serialization.Formatters.Soap.SerializationCallbackTest.Test" executed="True" success="True" time="0.050" asserts="20" />
+                                  <test-case name="MonoTests.System.Runtime.Serialization.Formatters.Soap.SerializationCallbackTest.TestInheritance" executed="True" success="True" time="0.002" asserts="22" />
+                                  <test-case name="MonoTests.System.Runtime.Serialization.Formatters.Soap.SerializationCallbackTest.TestISerializable" executed="True" success="True" time="0.003" asserts="20" />
+                                </results>
+                              </test-suite>
+                              <test-suite name="SerializationTest" success="True" time="0.106" asserts="0">
+                                <results>
+                                  <test-case name="MonoTests.System.Runtime.Serialization.Formatters.Soap.SerializationTest.TestSerialization" executed="True" success="True" time="0.106" asserts="2133" />
+                                </results>
+                              </test-suite>
+                              <test-suite name="SoapFormatterTest" success="True" time="0.065" asserts="0">
+                                <results>
+                                  <test-case name="MonoTests.System.Runtime.Serialization.Formatters.Soap.SoapFormatterTest.TestArray" executed="True" success="True" time="0.015" asserts="52" />
+                                  <test-case name="MonoTests.System.Runtime.Serialization.Formatters.Soap.SoapFormatterTest.TestCulture" executed="True" success="True" time="0.001" asserts="2" />
+                                  <test-case name="MonoTests.System.Runtime.Serialization.Formatters.Soap.SoapFormatterTest.TestMarshalByRefObject" executed="True" success="True" time="0.002" asserts="4" />
+                                  <test-case name="MonoTests.System.Runtime.Serialization.Formatters.Soap.SoapFormatterTest.TestMethodSignatureSerialization" executed="True" success="True" time="0.011" asserts="7" />
+                                  <test-case name="MonoTests.System.Runtime.Serialization.Formatters.Soap.SoapFormatterTest.TestMoreComplexObject" executed="True" success="True" time="0.008" asserts="19" />
+                                  <test-case name="MonoTests.System.Runtime.Serialization.Formatters.Soap.SoapFormatterTest.TestNonSerialisable" executed="True" success="True" time="0.002" asserts="2" />
+                                  <test-case name="MonoTests.System.Runtime.Serialization.Formatters.Soap.SoapFormatterTest.TestNullObject" executed="True" success="True" time="0.000" asserts="0" />
+                                  <test-case name="MonoTests.System.Runtime.Serialization.Formatters.Soap.SoapFormatterTest.TestObjects" executed="True" success="True" time="0.006" asserts="28" />
+                                  <test-case name="MonoTests.System.Runtime.Serialization.Formatters.Soap.SoapFormatterTest.TestSerializationbinder" executed="True" success="True" time="0.002" asserts="3" />
+                                  <test-case name="MonoTests.System.Runtime.Serialization.Formatters.Soap.SoapFormatterTest.TestValueTypes" executed="True" success="True" time="0.003" asserts="35" />
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite name="SoapShared" success="True" time="0.014" asserts="0">
+        <results>
+          <test-suite name="InternalSoapValuesTest" success="True" time="0.013" asserts="0">
+            <results>
+              <test-case name="SoapShared.InternalSoapValuesTest.WriteReadData" executed="True" success="True" time="0.013" asserts="19" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="Mono.Security_test_net_4_5.dll" total="625" failures="0" not-run="40" date="2014-06-29" time="12:36:27">
+  <environment nunit-version="2.4.8.0" clr-version="4.0.30319.17020" os-version="Unix 3.15.0.8" platform="Unix" cwd="/store/dash/mono-tizen/mono-sources/mcs/class/Mono.Security" machine-name="mini" user="dash" user-domain="mini" />
+  <culture-info current-culture="" current-uiculture="" />
+  <test-suite name="Mono.Security_test_net_4_5.dll" success="True" time="23.281" asserts="0">
+    <results>
+      <test-suite name="MonoTests" success="True" time="23.271" asserts="0">
+        <results>
+          <test-suite name="Mono" success="True" time="22.933" asserts="0">
+            <results>
+              <test-suite name="Math" success="True" time="11.742" asserts="0">
+                <results>
+                  <test-suite name="Arithmetic" success="True" time="0.338" asserts="0">
+                    <results>
+                      <test-suite name="Big" success="True" time="0.335" asserts="0">
+                        <results>
+                          <test-suite name="ArithmeticBig_Base" success="True" time="0.013" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base.ABdivA" executed="False">
+                                <reason>
+                                  <message><![CDATA[MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base is an abstract class]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base.ABdivB" executed="False">
+                                <reason>
+                                  <message><![CDATA[MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base is an abstract class]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base.ABmodA" executed="False">
+                                <reason>
+                                  <message><![CDATA[MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base is an abstract class]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base.ABmodB" executed="False">
+                                <reason>
+                                  <message><![CDATA[MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base is an abstract class]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base.AdivB" executed="False">
+                                <reason>
+                                  <message><![CDATA[MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base is an abstract class]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base.AeqA" executed="False">
+                                <reason>
+                                  <message><![CDATA[MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base is an abstract class]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base.AgtB" executed="False">
+                                <reason>
+                                  <message><![CDATA[MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base is an abstract class]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base.AltB" executed="False">
+                                <reason>
+                                  <message><![CDATA[MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base is an abstract class]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base.AminusB" executed="False">
+                                <reason>
+                                  <message><![CDATA[MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base is an abstract class]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base.AmodB" executed="False">
+                                <reason>
+                                  <message><![CDATA[MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base is an abstract class]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base.AneqB" executed="False">
+                                <reason>
+                                  <message><![CDATA[MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base is an abstract class]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base.ANotLtB" executed="False">
+                                <reason>
+                                  <message><![CDATA[MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base is an abstract class]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base.AplusB" executed="False">
+                                <reason>
+                                  <message><![CDATA[MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base is an abstract class]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base.Asquared" executed="False">
+                                <reason>
+                                  <message><![CDATA[MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base is an abstract class]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base.AtimesB" executed="False">
+                                <reason>
+                                  <message><![CDATA[MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base is an abstract class]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base.BeqB" executed="False">
+                                <reason>
+                                  <message><![CDATA[MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base is an abstract class]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base.BmodA" executed="False">
+                                <reason>
+                                  <message><![CDATA[MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base is an abstract class]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base.BneqA" executed="False">
+                                <reason>
+                                  <message><![CDATA[MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base is an abstract class]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base.BNotGtA" executed="False">
+                                <reason>
+                                  <message><![CDATA[MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base is an abstract class]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base.BplusA" executed="False">
+                                <reason>
+                                  <message><![CDATA[MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base is an abstract class]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base.Bsquared" executed="False">
+                                <reason>
+                                  <message><![CDATA[MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base is an abstract class]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base.BtimesA" executed="False">
+                                <reason>
+                                  <message><![CDATA[MonoTests.Mono.Math.Arithmetic.Big.ArithmeticBig_Base is an abstract class]]></message>
+                                </reason>
+                              </test-case>
+                            </results>
+                          </test-suite>
+                          <test-suite name="Carry10_1589a612b" success="True" time="0.067" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_1589a612b.ABdivA" executed="True" success="True" time="0.009" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_1589a612b.ABdivB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_1589a612b.ABmodA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_1589a612b.ABmodB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_1589a612b.AdivB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_1589a612b.AeqA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_1589a612b.AgtB" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_1589a612b.AltB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_1589a612b.AminusB" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_1589a612b.AmodB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_1589a612b.AneqB" executed="True" success="True" time="0.002" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_1589a612b.ANotLtB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_1589a612b.AplusB" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_1589a612b.Asquared" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_1589a612b.AtimesB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_1589a612b.BeqB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_1589a612b.BmodA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_1589a612b.BneqA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_1589a612b.BNotGtA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_1589a612b.BplusA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_1589a612b.Bsquared" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_1589a612b.BtimesA" executed="True" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="Carry10_2048a512b" success="True" time="0.012" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_2048a512b.ABdivA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_2048a512b.ABdivB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_2048a512b.ABmodA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_2048a512b.ABmodB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_2048a512b.AdivB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_2048a512b.AeqA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_2048a512b.AgtB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_2048a512b.AltB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_2048a512b.AminusB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_2048a512b.AmodB" executed="True" success="True" time="0.004" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_2048a512b.AneqB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_2048a512b.ANotLtB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_2048a512b.AplusB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_2048a512b.Asquared" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_2048a512b.AtimesB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_2048a512b.BeqB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_2048a512b.BmodA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_2048a512b.BneqA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_2048a512b.BNotGtA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_2048a512b.BplusA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_2048a512b.Bsquared" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_2048a512b.BtimesA" executed="True" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="Carry10_612a612b" success="True" time="0.001" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_612a612b.ABdivA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_612a612b.ABdivB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_612a612b.ABmodA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_612a612b.ABmodB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_612a612b.AdivB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_612a612b.AeqA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_612a612b.AgtB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_612a612b.AltB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_612a612b.AminusB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_612a612b.AmodB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_612a612b.AneqB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_612a612b.ANotLtB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_612a612b.AplusB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_612a612b.Asquared" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_612a612b.AtimesB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_612a612b.BeqB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_612a612b.BmodA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_612a612b.BneqA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_612a612b.BNotGtA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_612a612b.BplusA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_612a612b.Bsquared" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_612a612b.BtimesA" executed="True" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="Carry10_924a592b" success="True" time="0.001" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_924a592b.ABdivA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_924a592b.ABdivB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_924a592b.ABmodA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_924a592b.ABmodB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_924a592b.AdivB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_924a592b.AeqA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_924a592b.AgtB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_924a592b.AltB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_924a592b.AminusB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_924a592b.AmodB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_924a592b.AneqB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_924a592b.ANotLtB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_924a592b.AplusB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_924a592b.Asquared" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_924a592b.AtimesB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_924a592b.BeqB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_924a592b.BmodA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_924a592b.BneqA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_924a592b.BNotGtA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_924a592b.BplusA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_924a592b.Bsquared" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Carry10_924a592b.BtimesA" executed="True" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="CarryFF_2048a2048b" success="True" time="0.079" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a2048b.ABdivA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a2048b.ABdivB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a2048b.ABmodA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a2048b.ABmodB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a2048b.AdivB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a2048b.AeqA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a2048b.AgtB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a2048b.AltB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a2048b.AminusB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a2048b.AmodB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a2048b.AneqB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a2048b.ANotLtB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a2048b.AplusB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a2048b.Asquared" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a2048b.AtimesB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a2048b.BeqB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a2048b.BmodA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a2048b.BneqA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a2048b.BNotGtA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a2048b.BplusA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a2048b.Bsquared" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a2048b.BtimesA" executed="True" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="CarryFF_2048a512b" success="True" time="0.021" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a512b.ABdivA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a512b.ABdivB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a512b.ABmodA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a512b.ABmodB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a512b.AdivB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a512b.AeqA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a512b.AgtB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a512b.AltB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a512b.AminusB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a512b.AmodB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a512b.AneqB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a512b.ANotLtB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a512b.AplusB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a512b.Asquared" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a512b.AtimesB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a512b.BeqB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a512b.BmodA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a512b.BneqA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a512b.BNotGtA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a512b.BplusA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a512b.Bsquared" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_2048a512b.BtimesA" executed="True" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="CarryFF_569a489b" success="True" time="0.021" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b.ABdivA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b.ABdivB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b.ABmodA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b.ABmodB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b.AdivB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b.AeqA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b.AgtB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b.AltB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b.AminusB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b.AmodB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b.AneqB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b.ANotLtB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b.AplusB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b.Asquared" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b.AtimesB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b.BeqB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b.BmodA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b.BneqA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b.BNotGtA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b.BplusA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b.Bsquared" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b.BtimesA" executed="True" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="CarryFF_569a489b2" success="True" time="0.023" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b2.ABdivA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b2.ABdivB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b2.ABmodA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b2.ABmodB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b2.AdivB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b2.AeqA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b2.AgtB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b2.AltB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b2.AminusB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b2.AmodB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b2.AneqB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b2.ANotLtB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b2.AplusB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b2.Asquared" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b2.AtimesB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b2.BeqB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b2.BmodA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b2.BneqA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b2.BNotGtA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b2.BplusA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b2.Bsquared" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.CarryFF_569a489b2.BtimesA" executed="True" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="Random1024a1024b" success="True" time="0.020" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random1024a1024b.ABdivA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random1024a1024b.ABdivB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random1024a1024b.ABmodA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random1024a1024b.ABmodB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random1024a1024b.AdivB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random1024a1024b.AeqA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random1024a1024b.AgtB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random1024a1024b.AltB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random1024a1024b.AminusB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random1024a1024b.AmodB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random1024a1024b.AneqB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random1024a1024b.ANotLtB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random1024a1024b.AplusB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random1024a1024b.Asquared" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random1024a1024b.AtimesB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random1024a1024b.BeqB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random1024a1024b.BmodA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random1024a1024b.BneqA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random1024a1024b.BNotGtA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random1024a1024b.BplusA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random1024a1024b.Bsquared" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random1024a1024b.BtimesA" executed="True" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="Random2048a1024b" success="True" time="0.023" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random2048a1024b.ABdivA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random2048a1024b.ABdivB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random2048a1024b.ABmodA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random2048a1024b.ABmodB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random2048a1024b.AdivB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random2048a1024b.AeqA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random2048a1024b.AgtB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random2048a1024b.AltB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random2048a1024b.AminusB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random2048a1024b.AmodB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random2048a1024b.AneqB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random2048a1024b.ANotLtB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random2048a1024b.AplusB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random2048a1024b.Asquared" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random2048a1024b.AtimesB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random2048a1024b.BeqB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random2048a1024b.BmodA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random2048a1024b.BneqA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random2048a1024b.BNotGtA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random2048a1024b.BplusA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random2048a1024b.Bsquared" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random2048a1024b.BtimesA" executed="True" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="Random648a592b" success="True" time="0.022" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random648a592b.ABdivA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random648a592b.ABdivB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random648a592b.ABmodA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random648a592b.ABmodB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random648a592b.AdivB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random648a592b.AeqA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random648a592b.AgtB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random648a592b.AltB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random648a592b.AminusB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random648a592b.AmodB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random648a592b.AneqB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random648a592b.ANotLtB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random648a592b.AplusB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random648a592b.Asquared" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random648a592b.AtimesB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random648a592b.BeqB" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random648a592b.BmodA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random648a592b.BneqA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random648a592b.BNotGtA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random648a592b.BplusA" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random648a592b.Bsquared" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.Mono.Math.Arithmetic.Big.Random648a592b.BtimesA" executed="True" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite name="BigIntegerTest" success="True" time="0.042" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.BigIntegerTest.Bug81857" executed="True" success="True" time="0.001" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.BigIntegerTest.DefaultBitCount" executed="True" success="True" time="0.002" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.BigIntegerTest.DefaultRandom" executed="True" success="True" time="0.001" asserts="3" />
+                      <test-case name="MonoTests.Mono.Math.BigIntegerTest.IsProbablePrime_Small" executed="True" success="True" time="0.002" asserts="2" />
+                      <test-case name="MonoTests.Mono.Math.BigIntegerTest.ModPow_0_Even" executed="True" success="True" time="0.001" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.BigIntegerTest.ModPow_2" executed="True" success="True" time="0.003" asserts="39" />
+                      <test-case name="MonoTests.Mono.Math.BigIntegerTest.ModPow_3" executed="True" success="True" time="0.002" asserts="61" />
+                      <test-case name="MonoTests.Mono.Math.BigIntegerTest.ModPow_Big_Even" executed="True" success="True" time="0.024" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="BigIntegerTestSet" success="True" time="0.000" asserts="0">
+                    <results />
+                  </test-suite>
+                  <test-suite name="Bitwise_Base" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.Bitwise_Base.ShiftLeft" executed="False">
+                        <reason>
+                          <message><![CDATA[MonoTests.Mono.Math.Bitwise_Base is an abstract class]]></message>
+                        </reason>
+                      </test-case>
+                      <test-case name="MonoTests.Mono.Math.Bitwise_Base.ShiftRight" executed="False">
+                        <reason>
+                          <message><![CDATA[MonoTests.Mono.Math.Bitwise_Base is an abstract class]]></message>
+                        </reason>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                  <test-suite name="Bitwise_Rand2048n" success="True" time="0.001" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.Bitwise_Rand2048n.ShiftLeft" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.Bitwise_Rand2048n.ShiftRight" executed="True" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="Bitwise_Rand512n" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.Bitwise_Rand512n.ShiftLeft" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.Bitwise_Rand512n.ShiftRight" executed="True" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="GcdBig_Base" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.GcdBig_Base.GcdPP" executed="False">
+                        <reason>
+                          <message><![CDATA[MonoTests.Mono.Math.GcdBig_Base is an abstract class]]></message>
+                        </reason>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                  <test-suite name="GcdBig_Rand2048a512b" success="True" time="0.001" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.GcdBig_Rand2048a512b.GcdPP" executed="True" success="True" time="0.001" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="GcdBig_Rand512a512b" success="True" time="0.014" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.GcdBig_Rand512a512b.GcdPP" executed="True" success="True" time="0.004" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="ModInverseBig_Base" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.ModInverseBig_Base.ModInvPP" executed="False">
+                        <reason>
+                          <message><![CDATA[MonoTests.Mono.Math.ModInverseBig_Base is an abstract class]]></message>
+                        </reason>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                  <test-suite name="ModInverseBig_Rand1024a5b" success="True" time="0.001" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.ModInverseBig_Rand1024a5b.ModInvPP" executed="True" success="True" time="0.001" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="ModInverseBig_Rand256a1024b" success="True" time="0.001" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.ModInverseBig_Rand256a1024b.ModInvPP" executed="True" success="True" time="0.001" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="ModInverseBig_Rand256a512b" success="True" time="0.001" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.ModInverseBig_Rand256a512b.ModInvPP" executed="True" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="ModInverseBig_Rand3a1024b" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.ModInverseBig_Rand3a1024b.ModInvPP" executed="True" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="ModInverseBig_Rand512a1024b" success="True" time="0.001" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.ModInverseBig_Rand512a1024b.ModInvPP" executed="True" success="True" time="0.001" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="ModRing_Base" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.ModRing_Base.ABmodN" executed="False">
+                        <reason>
+                          <message><![CDATA[MonoTests.Mono.Math.ModRing_Base is an abstract class]]></message>
+                        </reason>
+                      </test-case>
+                      <test-case name="MonoTests.Mono.Math.ModRing_Base.ApowBmodN" executed="False">
+                        <reason>
+                          <message><![CDATA[MonoTests.Mono.Math.ModRing_Base is an abstract class]]></message>
+                        </reason>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                  <test-suite name="ModRing_Rand1024a1024b2048nEven" success="True" time="0.082" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.ModRing_Rand1024a1024b2048nEven.ABmodN" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.ModRing_Rand1024a1024b2048nEven.ApowBmodN" executed="True" success="True" time="0.081" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="ModRing_Rand1024a1024b2048nOdd" success="True" time="0.061" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.ModRing_Rand1024a1024b2048nOdd.ABmodN" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.ModRing_Rand1024a1024b2048nOdd.ApowBmodN" executed="True" success="True" time="0.059" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="ModRing_Rand512a1024b2048nEven" success="True" time="0.062" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.ModRing_Rand512a1024b2048nEven.ABmodN" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.ModRing_Rand512a1024b2048nEven.ApowBmodN" executed="True" success="True" time="0.060" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="ModRing_Rand512a1024b2048nOdd" success="True" time="0.063" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.ModRing_Rand512a1024b2048nOdd.ABmodN" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.ModRing_Rand512a1024b2048nOdd.ApowBmodN" executed="True" success="True" time="0.061" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="ModRing_Rand590a469b1254nEven" success="True" time="0.012" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.ModRing_Rand590a469b1254nEven.ABmodN" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.ModRing_Rand590a469b1254nEven.ApowBmodN" executed="True" success="True" time="0.011" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="ModRing_Rand590a469b1254nOdd" success="True" time="0.013" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.ModRing_Rand590a469b1254nOdd.ABmodN" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.ModRing_Rand590a469b1254nOdd.ApowBmodN" executed="True" success="True" time="0.012" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="PrimeGeneration_512" success="True" time="0.182" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.PrimeGeneration_512.GeneratePrime" executed="True" success="True" time="0.181" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="PrimeGeneration_Base" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.PrimeGeneration_Base.GeneratePrime" executed="False">
+                        <reason>
+                          <message><![CDATA[MonoTests.Mono.Math.PrimeGeneration_Base is an abstract class]]></message>
+                        </reason>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                  <test-suite name="PrimeGeneration_Rand1024" success="True" time="1.195" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.PrimeGeneration_Rand1024.GeneratePrime" executed="True" success="True" time="1.194" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="PrimeTesting_Base" success="True" time="0.006" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.PrimeTesting_Base.p1p2composite" executed="False">
+                        <reason>
+                          <message><![CDATA[MonoTests.Mono.Math.PrimeTesting_Base is an abstract class]]></message>
+                        </reason>
+                      </test-case>
+                      <test-case name="MonoTests.Mono.Math.PrimeTesting_Base.p1p2p3composite" executed="False">
+                        <reason>
+                          <message><![CDATA[MonoTests.Mono.Math.PrimeTesting_Base is an abstract class]]></message>
+                        </reason>
+                      </test-case>
+                      <test-case name="MonoTests.Mono.Math.PrimeTesting_Base.p1p3composite" executed="False">
+                        <reason>
+                          <message><![CDATA[MonoTests.Mono.Math.PrimeTesting_Base is an abstract class]]></message>
+                        </reason>
+                      </test-case>
+                      <test-case name="MonoTests.Mono.Math.PrimeTesting_Base.p1prime" executed="False">
+                        <reason>
+                          <message><![CDATA[MonoTests.Mono.Math.PrimeTesting_Base is an abstract class]]></message>
+                        </reason>
+                      </test-case>
+                      <test-case name="MonoTests.Mono.Math.PrimeTesting_Base.p2p3composite" executed="False">
+                        <reason>
+                          <message><![CDATA[MonoTests.Mono.Math.PrimeTesting_Base is an abstract class]]></message>
+                        </reason>
+                      </test-case>
+                      <test-case name="MonoTests.Mono.Math.PrimeTesting_Base.p2prime" executed="False">
+                        <reason>
+                          <message><![CDATA[MonoTests.Mono.Math.PrimeTesting_Base is an abstract class]]></message>
+                        </reason>
+                      </test-case>
+                      <test-case name="MonoTests.Mono.Math.PrimeTesting_Base.p3prime" executed="False">
+                        <reason>
+                          <message><![CDATA[MonoTests.Mono.Math.PrimeTesting_Base is an abstract class]]></message>
+                        </reason>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                  <test-suite name="PrimeTesting_Rand1024" success="True" time="2.091" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.PrimeTesting_Rand1024.p1p2composite" executed="True" success="True" time="0.119" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.PrimeTesting_Rand1024.p1p2p3composite" executed="True" success="True" time="0.373" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.PrimeTesting_Rand1024.p1p3composite" executed="True" success="True" time="0.120" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.PrimeTesting_Rand1024.p1prime" executed="True" success="True" time="0.453" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.PrimeTesting_Rand1024.p2p3composite" executed="True" success="True" time="0.118" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.PrimeTesting_Rand1024.p2prime" executed="True" success="True" time="0.469" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.PrimeTesting_Rand1024.p3prime" executed="True" success="True" time="0.432" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="PrimeTesting_Rand128" success="True" time="0.026" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.PrimeTesting_Rand128.p1p2composite" executed="True" success="True" time="0.001" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.PrimeTesting_Rand128.p1p2p3composite" executed="True" success="True" time="0.002" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.PrimeTesting_Rand128.p1p3composite" executed="True" success="True" time="0.001" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.PrimeTesting_Rand128.p1prime" executed="True" success="True" time="0.004" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.PrimeTesting_Rand128.p2p3composite" executed="True" success="True" time="0.001" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.PrimeTesting_Rand128.p2prime" executed="True" success="True" time="0.007" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.PrimeTesting_Rand128.p3prime" executed="True" success="True" time="0.005" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="PrimeTesting_Rand512" success="True" time="0.346" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.PrimeTesting_Rand512.p1p2composite" executed="True" success="True" time="0.017" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.PrimeTesting_Rand512.p1p2p3composite" executed="True" success="True" time="0.052" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.PrimeTesting_Rand512.p1p3composite" executed="True" success="True" time="0.017" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.PrimeTesting_Rand512.p1prime" executed="True" success="True" time="0.078" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.PrimeTesting_Rand512.p2p3composite" executed="True" success="True" time="0.018" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.PrimeTesting_Rand512.p2prime" executed="True" success="True" time="0.078" asserts="1" />
+                      <test-case name="MonoTests.Mono.Math.PrimeTesting_Rand512.p3prime" executed="True" success="True" time="0.080" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="Rfc2412WellTestedPrimes" success="True" time="2.116" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.Rfc2412WellTestedPrimes.Prime1024" executed="True" success="True" time="0.472" asserts="2" />
+                      <test-case name="MonoTests.Mono.Math.Rfc2412WellTestedPrimes.Prime1536" executed="True" success="True" time="1.422" asserts="2" />
+                      <test-case name="MonoTests.Mono.Math.Rfc2412WellTestedPrimes.Prime768" executed="True" success="True" time="0.221" asserts="2" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="SearchGenerator_Test" success="True" time="0.030" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.SearchGenerator_Test.TestPrimeGeneration" executed="True" success="True" time="0.029" asserts="165" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="SmallRandomPrimes" success="True" time="4.979" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Math.SmallRandomPrimes.IsProbablePrime_10_digits" executed="True" success="True" time="0.010" asserts="10" />
+                      <test-case name="MonoTests.Mono.Math.SmallRandomPrimes.IsProbablePrime_100_digits" executed="True" success="True" time="0.308" asserts="10" />
+                      <test-case name="MonoTests.Mono.Math.SmallRandomPrimes.IsProbablePrime_20_digits" executed="True" success="True" time="0.023" asserts="10" />
+                      <test-case name="MonoTests.Mono.Math.SmallRandomPrimes.IsProbablePrime_200_digits" executed="True" success="True" time="1.481" asserts="10" />
+                      <test-case name="MonoTests.Mono.Math.SmallRandomPrimes.IsProbablePrime_30_digits" executed="True" success="True" time="0.042" asserts="10" />
+                      <test-case name="MonoTests.Mono.Math.SmallRandomPrimes.IsProbablePrime_300_digits" executed="True" success="True" time="2.194" asserts="5" />
+                      <test-case name="MonoTests.Mono.Math.SmallRandomPrimes.IsProbablePrime_40_digits" executed="True" success="True" time="0.061" asserts="10" />
+                      <test-case name="MonoTests.Mono.Math.SmallRandomPrimes.IsProbablePrime_50_digits" executed="True" success="True" time="0.096" asserts="10" />
+                      <test-case name="MonoTests.Mono.Math.SmallRandomPrimes.IsProbablePrime_60_digits" executed="True" success="True" time="0.120" asserts="10" />
+                      <test-case name="MonoTests.Mono.Math.SmallRandomPrimes.IsProbablePrime_70_digits" executed="True" success="True" time="0.157" asserts="10" />
+                      <test-case name="MonoTests.Mono.Math.SmallRandomPrimes.IsProbablePrime_80_digits" executed="True" success="True" time="0.199" asserts="10" />
+                      <test-case name="MonoTests.Mono.Math.SmallRandomPrimes.IsProbablePrime_90_digits" executed="True" success="True" time="0.279" asserts="10" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite name="Security" success="True" time="11.138" asserts="0">
+                <results>
+                  <test-suite name="ASN1ConvertTest" success="True" time="0.049" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Security.ASN1ConvertTest.ConvertDateTimeAfter2000" executed="True" success="True" time="0.023" asserts="2" />
+                      <test-case name="MonoTests.Mono.Security.ASN1ConvertTest.ConvertDateTimeAfter2050" executed="True" success="True" time="0.002" asserts="2" />
+                      <test-case name="MonoTests.Mono.Security.ASN1ConvertTest.ConvertDateTimeBefore2000" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Security.ASN1ConvertTest.ConvertDateTimeInvalidButExistingFormat" executed="True" success="True" time="0.001" asserts="2" />
+                      <test-case name="MonoTests.Mono.Security.ASN1ConvertTest.ConvertFromOid_Null" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="MonoTests.Mono.Security.ASN1ConvertTest.ConvertFromUnsignedBigInteger" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.Mono.Security.ASN1ConvertTest.ConvertFromUnsignedBigInteger_Null" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="MonoTests.Mono.Security.ASN1ConvertTest.ConvertInt32_Negative" executed="True" success="True" time="0.002" asserts="1" />
+                      <test-case name="MonoTests.Mono.Security.ASN1ConvertTest.ConvertInt32_One" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.Mono.Security.ASN1ConvertTest.ConvertInt32_Positive" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.Mono.Security.ASN1ConvertTest.ConvertInt32_Zero" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.Mono.Security.ASN1ConvertTest.ConvertOID" executed="True" success="True" time="0.006" asserts="1" />
+                      <test-case name="MonoTests.Mono.Security.ASN1ConvertTest.ConvertOID_LargeX" executed="True" success="True" time="0.001" asserts="2">
+                        <categories>
+                          <category name="NotDotNet" />
+                        </categories>
+                      </test-case>
+                      <test-case name="MonoTests.Mono.Security.ASN1ConvertTest.ConvertToDate_Null" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="MonoTests.Mono.Security.ASN1ConvertTest.ConvertToInt32_Null" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="MonoTests.Mono.Security.ASN1ConvertTest.ConvertToInt32_WrongTag" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="MonoTests.Mono.Security.ASN1ConvertTest.ConvertToOid_Null" executed="True" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="Authenticode" success="True" time="5.107" asserts="0">
+                    <results>
+                      <test-suite name="AuthenticodeDeformatterTest" success="True" time="0.055" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.Mono.Security.Authenticode.AuthenticodeDeformatterTest.VerifySignedAssembly" executed="True" success="True" time="0.053" asserts="6" />
+                          <test-case name="MonoTests.Mono.Security.Authenticode.AuthenticodeDeformatterTest.VerifyUnsignedAssembly" executed="True" success="True" time="0.001" asserts="5" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="PrivateKeyTest" success="True" time="5.017" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.Mono.Security.Authenticode.PrivateKeyTest.BadHeader" executed="True" success="True" time="0.002" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Authenticode.PrivateKeyTest.BadMagic" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Authenticode.PrivateKeyTest.Constructor_Null" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Authenticode.PrivateKeyTest.ConvertToPasswordStrong" executed="True" success="True" time="2.463" asserts="4" />
+                          <test-case name="MonoTests.Mono.Security.Authenticode.PrivateKeyTest.ConvertToPasswordWeak" executed="True" success="True" time="0.139" asserts="4" />
+                          <test-case name="MonoTests.Mono.Security.Authenticode.PrivateKeyTest.CreateFromFile_Null" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Authenticode.PrivateKeyTest.CreatePVK" executed="True" success="True" time="0.289" asserts="4" />
+                          <test-case name="MonoTests.Mono.Security.Authenticode.PrivateKeyTest.MSNoPassword" executed="True" success="True" time="0.001" asserts="4" />
+                          <test-case name="MonoTests.Mono.Security.Authenticode.PrivateKeyTest.MSPasswordWeak" executed="True" success="True" time="0.001" asserts="3" />
+                          <test-case name="MonoTests.Mono.Security.Authenticode.PrivateKeyTest.RemovePassword" executed="True" success="True" time="2.114" asserts="4" />
+                          <test-case name="MonoTests.Mono.Security.Authenticode.PrivateKeyTest.SaltWithoutPassword" executed="True" success="True" time="0.001" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Authenticode.PrivateKeyTest.Save_Null" executed="True" success="True" time="0.000" asserts="0" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="SoftwarePublisherCertificateFileTest" success="True" time="0.030" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.Mono.Security.Authenticode.SoftwarePublisherCertificateFileTest.CompareCertificateOnly" executed="True" success="True" time="0.006" asserts="3" />
+                          <test-case name="MonoTests.Mono.Security.Authenticode.SoftwarePublisherCertificateFileTest.CompareCRLOnly" executed="True" success="True" time="0.001" asserts="3" />
+                          <test-case name="MonoTests.Mono.Security.Authenticode.SoftwarePublisherCertificateFileTest.CompareReadNavy" executed="True" success="True" time="0.004" asserts="3" />
+                          <test-case name="MonoTests.Mono.Security.Authenticode.SoftwarePublisherCertificateFileTest.Constructor_BadOid" executed="True" success="True" time="0.001" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Authenticode.SoftwarePublisherCertificateFileTest.Constructor_Null" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Authenticode.SoftwarePublisherCertificateFileTest.CreateFromFile_Null" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Authenticode.SoftwarePublisherCertificateFileTest.ReadCertificateOnly_Base64" executed="True" success="True" time="0.002" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.Authenticode.SoftwarePublisherCertificateFileTest.ReadCertificateOnly_Base64Unicode" executed="True" success="True" time="0.002" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.Authenticode.SoftwarePublisherCertificateFileTest.ReadCertificateOnly_Binary" executed="True" success="True" time="0.001" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.Authenticode.SoftwarePublisherCertificateFileTest.ReadCertificateOnly_PEM" executed="True" success="True" time="0.001" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.Authenticode.SoftwarePublisherCertificateFileTest.ReadCRLOnly" executed="True" success="True" time="0.001" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.Authenticode.SoftwarePublisherCertificateFileTest.ReadNavy" executed="True" success="True" time="0.001" asserts="2" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite name="Cryptography" success="True" time="1.669" asserts="0">
+                    <results>
+                      <test-suite name="ARC4ManagedTest" success="True" time="0.024" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.Mono.Security.Cryptography.ARC4ManagedTest.DefaultProperties" executed="True" success="True" time="0.001" asserts="4" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.ARC4ManagedTest.DefaultSizes" executed="True" success="True" time="0.001" asserts="3" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.ARC4ManagedTest.SSLClient" executed="True" success="True" time="0.001" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.ARC4ManagedTest.SSLServer" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.ARC4ManagedTest.TransformBlock_InputBuffer_Null" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.ARC4ManagedTest.TransformBlock_InputCount_Negative" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.ARC4ManagedTest.TransformBlock_InputCount_Overflow" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.ARC4ManagedTest.TransformBlock_InputOffset_Negative" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.ARC4ManagedTest.TransformBlock_InputOffset_Overflow" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.ARC4ManagedTest.TransformBlock_OutputBuffer_Null" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.ARC4ManagedTest.TransformBlock_OutputOffset_Negative" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.ARC4ManagedTest.TransformBlock_OutputOffset_Overflow" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.ARC4ManagedTest.TransformFinalBlock_InputBuffer_Null" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.ARC4ManagedTest.TransformFinalBlock_InputCount_Negative" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.ARC4ManagedTest.TransformFinalBlock_InputCount_Overflow" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.ARC4ManagedTest.TransformFinalBlock_InputOffset_Negative" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.ARC4ManagedTest.TransformFinalBlock_InputOffset_Overflow" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.ARC4ManagedTest.Vector0" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.ARC4ManagedTest.Vector1" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.ARC4ManagedTest.Vector2" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.ARC4ManagedTest.Vector3" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.ARC4ManagedTest.Vector4" executed="True" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="CryptoConvertTest" success="True" time="0.067" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.FromCapiKeyBlob" executed="True" success="True" time="0.001" asserts="4" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.FromCapiKeyBlob_InvalidOffset" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.FromCapiKeyBlob_Null" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.FromCapiKeyBlob_UnknownBlob" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.FromCapiKeyBlobDSA" executed="True" success="True" time="0.007" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.FromCapiKeyBlobDSA_InvalidOffset" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.FromCapiKeyBlobDSA_Null" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.FromCapiKeyBlobDSA_UnknownBlob" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.FromCapiPrivateKeyBlob" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.FromCapiPrivateKeyBlob_Invalid" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.FromCapiPrivateKeyBlob_InvalidOffset" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.FromCapiPrivateKeyBlob_Null" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.FromCapiPrivateKeyBlobDSA" executed="True" success="True" time="0.003" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.FromCapiPrivateKeyBlobDSA_Invalid" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.FromCapiPrivateKeyBlobDSA_InvalidOffset" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.FromCapiPrivateKeyBlobDSA_Null" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.FromCapiPublicKeyBlob" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.FromCapiPublicKeyBlob_Invalid" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.FromCapiPublicKeyBlob_InvalidOffset" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.FromCapiPublicKeyBlob_Null" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.FromCapiPublicKeyBlobDSA" executed="True" success="True" time="0.001" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.FromCapiPublicKeyBlobDSA_Invalid" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.FromCapiPublicKeyBlobDSA_InvalidOffset" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.FromCapiPublicKeyBlobDSA_Null" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.FromHex" executed="True" success="True" time="0.001" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.FromHex_NonHexChars" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.FromHex_NonMultipleOf2" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.NUnitKey_Broken" executed="True" success="True" time="0.001" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.ToCapiKeyBlob_AsymmetricAlgorithm" executed="True" success="True" time="0.004" asserts="4" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.ToCapiKeyBlob_AsymmetricNull" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.ToCapiKeyBlob_DSA" executed="True" success="True" time="0.001" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.ToCapiKeyBlob_DSANull" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.ToCapiKeyBlob_RSA" executed="True" success="True" time="0.001" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.ToCapiKeyBlob_RSANull" executed="True" success="True" time="0.001" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.ToCapiPrivateKeyBlob" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.ToCapiPrivateKeyBlob_DSA" executed="True" success="True" time="0.001" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.ToCapiPrivateKeyBlob_PublicKeyOnly" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.ToCapiPrivateKeyBlob_PublicKeyOnly_DSA" executed="True" success="True" time="0.001" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.ToCapiPublicKeyBlob" executed="True" success="True" time="0.001" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.ToCapiPublicKeyBlob_DSA" executed="True" success="True" time="0.001" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.CryptoConvertTest.ToHex" executed="True" success="True" time="0.001" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="DiffieHellmanManagedTest" success="True" time="0.476" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.Mono.Security.Cryptography.DiffieHellmanManagedTest.KeyExchange" executed="True" success="True" time="0.475" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="KeyPairPersistenceTest" success="True" time="0.030" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.Mono.Security.Cryptography.KeyPairPersistenceTest.Constructor_Null" executed="True" success="True" time="0.001" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.KeyPairPersistenceTest.CspFlagsDefault" executed="True" success="True" time="0.014" asserts="9" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.KeyPairPersistenceTest.CspFlagsDefaultMachine" executed="False">
+                            <reason>
+                              <message><![CDATA[Access denied to key containers files.]]></message>
+                            </reason>
+                          </test-case>
+                          <test-case name="MonoTests.Mono.Security.Cryptography.KeyPairPersistenceTest.CspFlagsMachine" executed="False">
+                            <reason>
+                              <message><![CDATA[Access denied to key containers files.]]></message>
+                            </reason>
+                          </test-case>
+                          <test-case name="MonoTests.Mono.Security.Cryptography.KeyPairPersistenceTest.CspNoChangesPermitted" executed="True" success="True" time="0.000" asserts="5" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.KeyPairPersistenceTest.CspType" executed="True" success="True" time="0.001" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.KeyPairPersistenceTest.CspTypeProvider" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.KeyPairPersistenceTest.CspTypeProviderContainer" executed="True" success="True" time="0.001" asserts="9" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.KeyPairPersistenceTest.CspTypeProviderContainerKeyNumber" executed="True" success="True" time="0.002" asserts="9" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="MD2ManagedTest" success="True" time="0.011" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.Mono.Security.Cryptography.MD2ManagedTest.Create" executed="True" success="True" time="0.001" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.MD2ManagedTest.RFC1319_Test1" executed="True" success="True" time="0.002" asserts="8" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.MD2ManagedTest.RFC1319_Test2" executed="True" success="True" time="0.001" asserts="10" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.MD2ManagedTest.RFC1319_Test3" executed="True" success="True" time="0.000" asserts="10" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.MD2ManagedTest.RFC1319_Test4" executed="True" success="True" time="0.000" asserts="10" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.MD2ManagedTest.RFC1319_Test5" executed="True" success="True" time="0.000" asserts="10" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.MD2ManagedTest.RFC1319_Test6" executed="True" success="True" time="0.000" asserts="10" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.MD2ManagedTest.RFC1319_Test7" executed="True" success="True" time="0.000" asserts="10" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.MD2ManagedTest.StaticInfo" executed="True" success="True" time="0.000" asserts="3" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="MD4ManagedTest" success="True" time="0.112" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.Mono.Security.Cryptography.MD4ManagedTest.Create" executed="True" success="True" time="0.001" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.MD4ManagedTest.RFC1320_Test1" executed="True" success="True" time="0.003" asserts="8" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.MD4ManagedTest.RFC1320_Test2" executed="True" success="True" time="0.001" asserts="10" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.MD4ManagedTest.RFC1320_Test3" executed="True" success="True" time="0.000" asserts="10" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.MD4ManagedTest.RFC1320_Test4" executed="True" success="True" time="0.001" asserts="10" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.MD4ManagedTest.RFC1320_Test5" executed="True" success="True" time="0.000" asserts="10" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.MD4ManagedTest.RFC1320_Test6" executed="True" success="True" time="0.000" asserts="10" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.MD4ManagedTest.RFC1320_Test7" executed="True" success="True" time="0.001" asserts="10" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.MD4ManagedTest.StaticInfo" executed="True" success="True" time="0.000" asserts="3" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="PKCS1Test" success="True" time="0.079" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.Mono.Security.Cryptography.PKCS1Test.PKCS15_SignAndVerify_UnknownHash" executed="True" success="True" time="0.009" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.PKCS1Test.ShortResults" executed="True" success="True" time="0.068" asserts="8" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="PKCS8Test" success="True" time="0.011" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.Mono.Security.Cryptography.PKCS8Test.EncryptedPrivateKey_Farscape" executed="True" success="True" time="0.002" asserts="5" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.PKCS8Test.GetType_Null" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.PKCS8Test.NegativeVersion" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.PKCS8Test.NullPrivateKey" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.PKCS8Test.PrivateKeyInfo" executed="True" success="True" time="0.002" asserts="13" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.PKCS8Test.PrivateKeyInfo_BadData" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.PKCS8Test.PrivateKeyInfo_BadVersion" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.PKCS8Test.PrivateKeyInfo_End_Certificate_CP_01_01" executed="True" success="True" time="0.000" asserts="5" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.PKCS8Test.PrivateKeyInfo_End_Certificate_CP_01_02" executed="True" success="True" time="0.001" asserts="5" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.PKCS8Test.PrivateKeyInfo_NotDSA" executed="True" success="True" time="0.000" asserts="0" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="RSAManagedTest" success="True" time="0.843" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.Mono.Security.Cryptography.RSAManagedTest.Bug79269" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.RSAManagedTest.CapiEncryptDecrypt" executed="True" success="True" time="0.133" asserts="13" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.RSAManagedTest.CapiEncryptDecryptWithoutCRT" executed="True" success="True" time="0.301" asserts="13" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.RSAManagedTest.CapiXmlImportExport" executed="True" success="True" time="0.003" asserts="13" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.RSAManagedTest.CapiXmlImportWithoutCRT" executed="True" success="True" time="0.001" asserts="13" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.RSAManagedTest.ConstructorEmpty" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.RSAManagedTest.ConstructorKeySize" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.RSAManagedTest.MonoEncryptDecrypt" executed="True" success="True" time="0.108" asserts="13" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.RSAManagedTest.MonoEncryptDecryptWithoutCRT" executed="True" success="True" time="0.279" asserts="13" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.RSAManagedTest.MonoXmlImportExport" executed="True" success="True" time="0.003" asserts="13" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.RSAManagedTest.MonoXmlImportExportWithoutCRT" executed="True" success="True" time="0.001" asserts="13" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.RSAManagedTest.Properties" executed="True" success="True" time="0.001" asserts="12" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.RSAManagedTest.TooBigKeyPair" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.Cryptography.RSAManagedTest.TooSmallKeyPair" executed="True" success="True" time="0.000" asserts="0" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite name="PKCS7Test" success="True" time="0.031" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Security.PKCS7Test.Unsorted" executed="True" success="True" time="0.030" asserts="4" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="Protocol" success="True" time="0.054" asserts="0">
+                    <results>
+                      <test-suite name="Ntlm" success="True" time="0.052" asserts="0">
+                        <results>
+                          <test-suite name="ChallengeResponseTest" success="True" time="0.020" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.Mono.Security.Protocol.Ntlm.ChallengeResponseTest.BeeblebroxSrvNonce" executed="True" success="True" time="0.009" asserts="2" />
+                              <test-case name="MonoTests.Mono.Security.Protocol.Ntlm.ChallengeResponseTest.Challenge_Disposed" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.Mono.Security.Protocol.Ntlm.ChallengeResponseTest.Challenge_Null" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.Mono.Security.Protocol.Ntlm.ChallengeResponseTest.EmptyPassword" executed="True" success="True" time="0.001" asserts="2" />
+                              <test-case name="MonoTests.Mono.Security.Protocol.Ntlm.ChallengeResponseTest.L0phtCrack" executed="True" success="True" time="0.001" asserts="2" />
+                              <test-case name="MonoTests.Mono.Security.Protocol.Ntlm.ChallengeResponseTest.LM_Disposed" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.Mono.Security.Protocol.Ntlm.ChallengeResponseTest.NoPropertiesOutput" executed="True" success="True" time="0.000" asserts="2" />
+                              <test-case name="MonoTests.Mono.Security.Protocol.Ntlm.ChallengeResponseTest.NT_Disposed" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.Mono.Security.Protocol.Ntlm.ChallengeResponseTest.NullPassword" executed="True" success="True" time="0.000" asserts="2" />
+                              <test-case name="MonoTests.Mono.Security.Protocol.Ntlm.ChallengeResponseTest.Password_Disposed" executed="True" success="True" time="0.000" asserts="0" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="MessageBaseTest" success="True" time="0.004" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.Mono.Security.Protocol.Ntlm.MessageBaseTest.Decode_BadHeader" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.Mono.Security.Protocol.Ntlm.MessageBaseTest.Decode_MinimalValidLength" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.Mono.Security.Protocol.Ntlm.MessageBaseTest.Decode_Null" executed="True" success="True" time="0.000" asserts="0" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="Type1MessageTest" success="True" time="0.005" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.Mono.Security.Protocol.Ntlm.Type1MessageTest.Decode1" executed="True" success="True" time="0.001" asserts="4" />
+                              <test-case name="MonoTests.Mono.Security.Protocol.Ntlm.Type1MessageTest.Decode2" executed="True" success="True" time="0.001" asserts="4" />
+                              <test-case name="MonoTests.Mono.Security.Protocol.Ntlm.Type1MessageTest.Encode1" executed="True" success="True" time="0.001" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="Type2MessageTest" success="True" time="0.006" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.Mono.Security.Protocol.Ntlm.Type2MessageTest.Decode1" executed="True" success="True" time="0.001" asserts="3" />
+                              <test-case name="MonoTests.Mono.Security.Protocol.Ntlm.Type2MessageTest.Decode2" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="MonoTests.Mono.Security.Protocol.Ntlm.Type2MessageTest.Encode1" executed="True" success="True" time="0.001" asserts="2" />
+                              <test-case name="MonoTests.Mono.Security.Protocol.Ntlm.Type2MessageTest.Nonce_InvalidLength" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.Mono.Security.Protocol.Ntlm.Type2MessageTest.Nonce_Null" executed="True" success="True" time="0.000" asserts="0" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="Type3MessageTest" success="True" time="0.010" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.Mono.Security.Protocol.Ntlm.Type3MessageTest.Challenge" executed="True" success="True" time="0.001" asserts="3" />
+                              <test-case name="MonoTests.Mono.Security.Protocol.Ntlm.Type3MessageTest.Challenge_InvalidLength" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.Mono.Security.Protocol.Ntlm.Type3MessageTest.Challenge_Null" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.Mono.Security.Protocol.Ntlm.Type3MessageTest.Decode1" executed="True" success="True" time="0.001" asserts="8" />
+                              <test-case name="MonoTests.Mono.Security.Protocol.Ntlm.Type3MessageTest.Decode2" executed="True" success="True" time="0.001" asserts="8" />
+                              <test-case name="MonoTests.Mono.Security.Protocol.Ntlm.Type3MessageTest.Encode1" executed="True" success="True" time="0.002" asserts="2" />
+                              <test-case name="MonoTests.Mono.Security.Protocol.Ntlm.Type3MessageTest.SmallPassword" executed="True" success="True" time="0.001" asserts="2" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite name="StrongNameTest" success="True" time="0.056" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Mono.Security.StrongNameTest.BadKey" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="MonoTests.Mono.Security.StrongNameTest.ECMA" executed="True" success="True" time="0.001" asserts="1" />
+                      <test-case name="MonoTests.Mono.Security.StrongNameTest.FromBuffer" executed="True" success="True" time="0.002" asserts="3" />
+                      <test-case name="MonoTests.Mono.Security.StrongNameTest.FromKey" executed="True" success="True" time="0.003" asserts="3" />
+                      <test-case name="MonoTests.Mono.Security.StrongNameTest.Hash" executed="True" success="True" time="0.005" asserts="4" />
+                      <test-case name="MonoTests.Mono.Security.StrongNameTest.ReSign" executed="True" success="True" time="0.011" asserts="2" />
+                      <test-case name="MonoTests.Mono.Security.StrongNameTest.Sign" executed="True" success="True" time="0.009" asserts="2" />
+                      <test-case name="MonoTests.Mono.Security.StrongNameTest.StrongName_ByteNull" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="MonoTests.Mono.Security.StrongNameTest.StrongName_RSANull" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="MonoTests.Mono.Security.StrongNameTest.TokenAlgorithm_Bad" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="MonoTests.Mono.Security.StrongNameTest.TokenAlgorithm_MD5" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="MonoTests.Mono.Security.StrongNameTest.TokenAlgorithm_SHA1" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="MonoTests.Mono.Security.StrongNameTest.VerifyInvalid" executed="True" success="True" time="0.001" asserts="1" />
+                      <test-case name="MonoTests.Mono.Security.StrongNameTest.VerifyInvalidFromStream" executed="True" success="True" time="0.001" asserts="1" />
+                      <test-case name="MonoTests.Mono.Security.StrongNameTest.VerifyValid" executed="True" success="True" time="0.001" asserts="1" />
+                      <test-case name="MonoTests.Mono.Security.StrongNameTest.VerifyValidFromStream" executed="True" success="True" time="0.001" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="X509" success="True" time="4.136" asserts="0">
+                    <results>
+                      <test-suite name="Extensions" success="True" time="0.355" asserts="0">
+                        <results>
+                          <test-suite name="AuthorityKeyIdentifierExtensionTest" success="True" time="0.004" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.AuthorityKeyIdentifierExtensionTest.AuthorityKeyIdentifier_Critical" executed="True" success="True" time="0.001" asserts="3" />
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.AuthorityKeyIdentifierExtensionTest.Constructor_ASN1" executed="True" success="True" time="0.001" asserts="5" />
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.AuthorityKeyIdentifierExtensionTest.Constructor_Empty" executed="True" success="True" time="0.000" asserts="5" />
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.AuthorityKeyIdentifierExtensionTest.Constructor_Extension" executed="True" success="True" time="0.000" asserts="5" />
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.AuthorityKeyIdentifierExtensionTest.EmptyIdentifier" executed="True" success="True" time="0.000" asserts="0" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="BasicConstraintsExtensionTest" success="True" time="0.003" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.BasicConstraintsExtensionTest.CertificateAuthority_Critical" executed="True" success="True" time="0.001" asserts="4" />
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.BasicConstraintsExtensionTest.CertificateAuthority_NoPathLengthConstraint" executed="True" success="True" time="0.000" asserts="4" />
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.BasicConstraintsExtensionTest.Constructor_ASN1" executed="True" success="True" time="0.000" asserts="6" />
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.BasicConstraintsExtensionTest.Constructor_Empty" executed="True" success="True" time="0.000" asserts="6" />
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.BasicConstraintsExtensionTest.Constructor_Extension" executed="True" success="True" time="0.000" asserts="6" />
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.BasicConstraintsExtensionTest.NegativePathLenConstraint" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.BasicConstraintsExtensionTest.NotCertificateAuthority" executed="True" success="True" time="0.001" asserts="4" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="ExtendedKeyUsageExtensionTest" success="True" time="0.003" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.ExtendedKeyUsageExtensionTest.Constructor_ASN1" executed="True" success="True" time="0.001" asserts="5" />
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.ExtendedKeyUsageExtensionTest.Constructor_Empty" executed="True" success="True" time="0.000" asserts="5" />
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.ExtendedKeyUsageExtensionTest.Constructor_Extension" executed="True" success="True" time="0.000" asserts="5" />
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.ExtendedKeyUsageExtensionTest.KeyPurpose_Critical" executed="True" success="True" time="0.000" asserts="6" />
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.ExtendedKeyUsageExtensionTest.KeyPurpose_NotCritical" executed="True" success="True" time="0.000" asserts="6" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="KeyUsageExtensionTest" success="True" time="0.035" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.KeyUsageExtensionTest.Constructor_ASN1" executed="True" success="True" time="0.002" asserts="8" />
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.KeyUsageExtensionTest.Constructor_Empty" executed="True" success="True" time="0.000" asserts="8" />
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.KeyUsageExtensionTest.Constructor_Extension" executed="True" success="True" time="0.000" asserts="8" />
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.KeyUsageExtensionTest.Critical" executed="True" success="True" time="0.005" asserts="51" />
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.KeyUsageExtensionTest.KeyUsage" executed="True" success="True" time="0.002" asserts="21" />
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.KeyUsageExtensionTest.KeyUsage_MaxValue" executed="True" success="True" time="0.000" asserts="10" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="SubjectAltNameTest" success="True" time="0.301" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.SubjectAltNameTest.MultipleEntriesInExtension" executed="True" success="True" time="0.008" asserts="5" />
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.SubjectAltNameTest.MultipleEntriesInExtension_AsASN1" executed="True" success="True" time="0.001" asserts="4" />
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.SubjectAltNameTest.SubjectAltNameGenerator" executed="True" success="True" time="0.288" asserts="6" />
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.SubjectAltNameTest.ThirdPartyCertificateParse" executed="True" success="True" time="0.001" asserts="5" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="SubjectKeyIdentifierExtensionTest" success="True" time="0.006" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.SubjectKeyIdentifierExtensionTest.AuthorityKeyIdentifier_Critical" executed="True" success="True" time="0.001" asserts="3" />
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.SubjectKeyIdentifierExtensionTest.Constructor_ASN1" executed="True" success="True" time="0.001" asserts="5" />
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.SubjectKeyIdentifierExtensionTest.Constructor_Empty" executed="True" success="True" time="0.000" asserts="5" />
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.SubjectKeyIdentifierExtensionTest.Constructor_Extension" executed="True" success="True" time="0.000" asserts="5" />
+                              <test-case name="MonoTests.Mono.Security.X509.Extensions.SubjectKeyIdentifierExtensionTest.EmptyIdentifier" executed="True" success="True" time="0.000" asserts="0" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite name="PKCS12Test" success="True" time="3.691" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.AddCertificate_Test1" executed="True" success="True" time="0.003" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.AddCertificate_Test2" executed="True" success="True" time="0.002" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.AddKeyBag_Test1" executed="True" success="True" time="0.977" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.AddKeyBag_Test2" executed="True" success="True" time="0.552" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.AddPkcs8ShroudedKeyBag_Test1" executed="True" success="True" time="0.443" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.AddPkcs8ShroudedKeyBag_Test2" executed="True" success="True" time="0.329" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.AddSecretBag_Test1" executed="True" success="True" time="0.002" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.AddSecretBag_Test2" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.BadFarscape" executed="True" success="True" time="0.004" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.Clone_Test" executed="True" success="True" time="0.035" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.CryptoApiLimitOnPasswordLength_Identical" executed="True" success="True" time="0.019" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.CryptoApiLimitOnPasswordLength_Over" executed="True" success="True" time="0.020" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.CryptoApiLimitOnPasswordLength_Under" executed="True" success="True" time="0.003" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.Farscape_NoPassword" executed="True" success="True" time="0.015" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.Farscape_NoPassword_Explicit_Empty" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.Farscape_NoPassword_Explicit_Null" executed="True" success="True" time="0.015" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.Farscape_Strong" executed="True" success="True" time="0.018" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.Farscape_Strong_Path" executed="True" success="True" time="0.019" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.Farscape_Weak" executed="True" success="True" time="0.019" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.Farscape_Weak_Path" executed="True" success="True" time="0.016" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.GetAsymmetricAlgorithm_Test" executed="True" success="True" time="0.362" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.GetAttributes_Test1" executed="True" success="True" time="0.198" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.GetAttributes_Test2" executed="True" success="True" time="0.002" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.GetCertificate_Test" executed="True" success="True" time="0.002" asserts="3" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.KeyGeneration_Test1" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.KeyGeneration_Test2" executed="True" success="True" time="0.001" asserts="3" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.KeyGeneration_Test3" executed="True" success="True" time="0.005" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.KeyGeneration_Test4" executed="True" success="True" time="0.007" asserts="3" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.MultipleKeys" executed="True" success="True" time="0.272" asserts="4" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.OpenSSL_EmptyPassword" executed="True" success="True" time="0.020" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.PKITS_DSACACert_p12" executed="True" success="True" time="0.020" asserts="5" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.PKITS_DSAParametersInheritedCACert_p12" executed="True" success="True" time="0.019" asserts="4" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.PKITS_InvalidDSASignatureTest6EE_p12" executed="True" success="True" time="0.020" asserts="5" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.PKITS_ValidDSAParameterInheritanceTest5EE_p12" executed="True" success="True" time="0.019" asserts="4" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.PKITS_ValidDSASignaturesTest4EE_p12" executed="True" success="True" time="0.019" asserts="5" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.RemoveCertificate_Test1" executed="True" success="True" time="0.001" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.RemoveCertificate_Test2" executed="True" success="True" time="0.001" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.RemoveKeyBag_Test" executed="True" success="True" time="0.057" asserts="3" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.RemovePkcs8ShroudedKeyBag_Test" executed="True" success="True" time="0.123" asserts="3" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.RemoveSecretBag_Test1" executed="True" success="True" time="0.001" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.X509.PKCS12Test.SecretBagImportExport_Test1" executed="True" success="True" time="0.018" asserts="3" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="X501NameTest" success="True" time="0.014" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.Mono.Security.X509.X501NameTest.FromString_Empty" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.X509.X501NameTest.FromString_EscapingCarriageReturn" executed="True" success="True" time="0.001" asserts="14" />
+                          <test-case name="MonoTests.Mono.Security.X509.X501NameTest.FromString_EscapingComma" executed="True" success="True" time="0.001" asserts="14" />
+                          <test-case name="MonoTests.Mono.Security.X509.X501NameTest.FromString_EscapingNonAscii" executed="True" success="True" time="0.001" asserts="18" />
+                          <test-case name="MonoTests.Mono.Security.X509.X501NameTest.FromString_MultiValued" executed="False">
+                            <reason>
+                              <message><![CDATA[multi-valued support isn't implemented]]></message>
+                            </reason>
+                          </test-case>
+                          <test-case name="MonoTests.Mono.Security.X509.X501NameTest.FromString_Null" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.X509.X501NameTest.FromString_OID" executed="True" success="True" time="0.001" asserts="14" />
+                          <test-case name="MonoTests.Mono.Security.X509.X501NameTest.FromString_Quoted" executed="True" success="True" time="0.001" asserts="10" />
+                          <test-case name="MonoTests.Mono.Security.X509.X501NameTest.FromString_Simple" executed="True" success="True" time="0.000" asserts="10" />
+                          <test-case name="MonoTests.Mono.Security.X509.X501NameTest.FromString_UnrecognizedEncoding" executed="False">
+                            <reason>
+                              <message><![CDATA[# support isn't implemented]]></message>
+                            </reason>
+                          </test-case>
+                          <test-case name="MonoTests.Mono.Security.X509.X501NameTest.T61String" executed="True" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="X509CertificateTest" success="True" time="0.052" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.Mono.Security.X509.X509CertificateTest.DSACA" executed="True" success="True" time="0.002" asserts="19" />
+                          <test-case name="MonoTests.Mono.Security.X509.X509CertificateTest.DSAWithoutParameters" executed="True" success="True" time="0.001" asserts="18" />
+                          <test-case name="MonoTests.Mono.Security.X509.X509CertificateTest.DSAWithoutParameters_DSA" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.Mono.Security.X509.X509CertificateTest.InheritedDSAParameters" executed="True" success="True" time="0.014" asserts="4" />
+                          <test-case name="MonoTests.Mono.Security.X509.X509CertificateTest.InvalidButSupportedPkixDateFormat" executed="True" success="True" time="0.001" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.X509.X509CertificateTest.IssuerUniqueIdentifier" executed="True" success="True" time="0.001" asserts="4" />
+                          <test-case name="MonoTests.Mono.Security.X509.X509CertificateTest.RipeMd160" executed="True" success="True" time="0.007" asserts="3" />
+                          <test-case name="MonoTests.Mono.Security.X509.X509CertificateTest.Sha256" executed="True" success="True" time="0.002" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.X509.X509CertificateTest.Sha512" executed="True" success="True" time="0.003" asserts="3" />
+                          <test-case name="MonoTests.Mono.Security.X509.X509CertificateTest.SubjectUniqueIdentifier" executed="True" success="True" time="0.000" asserts="4" />
+                          <test-case name="MonoTests.Mono.Security.X509.X509CertificateTest.VerifyDSASignature" executed="True" success="True" time="0.006" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.X509.X509CertificateTest.VerifyDSASignature_Bad" executed="True" success="True" time="0.006" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="X509CrlTest" success="True" time="0.006" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.Mono.Security.X509.X509CrlTest.basicConstraintsCriticalcAFalseCACRL" executed="True" success="True" time="0.003" asserts="11" />
+                          <test-case name="MonoTests.Mono.Security.X509.X509CrlTest.EmptyCrl" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.Mono.Security.X509.X509CrlTest.EmptyCrlWithExtensions" executed="True" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="X520AttributesTest" success="True" time="0.002" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.Mono.Security.X509.X520AttributesTest.eightBit" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.Mono.Security.X509.X520AttributesTest.sevenBit" executed="True" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite name="System" success="True" time="0.242" asserts="0">
+            <results>
+              <test-suite name="Security" success="True" time="0.239" asserts="0">
+                <results>
+                  <test-suite name="Cryptography" success="True" time="0.238" asserts="0">
+                    <results>
+                      <test-suite name="SHA224ManagedTest" success="True" time="0.232" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.System.Security.Cryptography.SHA224ManagedTest.Create" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Security.Cryptography.SHA224ManagedTest.CreateIncorrect" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Security.Cryptography.SHA224ManagedTest.CreateNull" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Security.Cryptography.SHA224ManagedTest.FIPSCompliance_Test1" executed="True" success="True" time="0.003" asserts="8" />
+                          <test-case name="MonoTests.System.Security.Cryptography.SHA224ManagedTest.FIPSCompliance_Test2" executed="True" success="True" time="0.000" asserts="8" />
+                          <test-case name="MonoTests.System.Security.Cryptography.SHA224ManagedTest.FIPSCompliance_Test3" executed="True" success="True" time="0.222" asserts="8" />
+                          <test-case name="MonoTests.System.Security.Cryptography.SHA224ManagedTest.StaticInfo" executed="True" success="True" time="0.001" asserts="6" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="SHA224Test" success="True" time="0.004" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.System.Security.Cryptography.SHA224Test.Create" executed="True" success="True" time="0.000" asserts="3" />
+                          <test-case name="MonoTests.System.Security.Cryptography.SHA224Test.CreateIncorrect" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Security.Cryptography.SHA224Test.CreateNull" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Security.Cryptography.SHA224Test.StaticInfo" executed="True" success="True" time="0.000" asserts="3" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

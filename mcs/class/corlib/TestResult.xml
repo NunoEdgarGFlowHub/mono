@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="Test/System.Runtime.Serialization.Formatters.Binary/VersionTolerantSerialization/net_4_5_TestLib/BinarySerializationOverVersions.exe" total="10" failures="0" not-run="0" date="2014-06-29" time="12:30:56">
+  <environment nunit-version="2.4.8.0" clr-version="4.0.30319.17020" os-version="Unix 3.15.0.8" platform="Unix" cwd="/store/dash/mono-tizen/mono-sources/mcs/class/corlib" machine-name="mini" user="dash" user-domain="mini" />
+  <culture-info current-culture="" current-uiculture="" />
+  <test-suite name="Test/System.Runtime.Serialization.Formatters.Binary/VersionTolerantSerialization/net_4_5_TestLib/BinarySerializationOverVersions.exe" success="True" time="6.575" asserts="0">
+    <results>
+      <test-suite name="MonoTests" success="True" time="6.574" asserts="0">
+        <results>
+          <test-suite name="System" success="True" time="6.572" asserts="0">
+            <results>
+              <test-suite name="Runtime" success="True" time="6.568" asserts="0">
+                <results>
+                  <test-suite name="Serialization" success="True" time="6.567" asserts="0">
+                    <results>
+                      <test-suite name="Formatters" success="True" time="6.566" asserts="0">
+                        <results>
+                          <test-suite name="Binary" success="True" time="6.560" asserts="0">
+                            <results>
+                              <test-suite name="BinarySerializationOverVersions" success="True" time="6.552" asserts="0">
+                                <results>
+                                  <test-case name="MonoTests.System.Runtime.Serialization.Formatters.Binary.BinarySerializationOverVersions.TestAddedField" executed="True" success="True" time="2.789" asserts="0" />
+                                  <test-case name="MonoTests.System.Runtime.Serialization.Formatters.Binary.BinarySerializationOverVersions.TestAddedFieldWithData" executed="True" success="True" time="0.405" asserts="0" />
+                                  <test-case name="MonoTests.System.Runtime.Serialization.Formatters.Binary.BinarySerializationOverVersions.TestAddedFieldWithOptionalAttrib" executed="True" success="True" time="0.419" asserts="0" />
+                                  <test-case name="MonoTests.System.Runtime.Serialization.Formatters.Binary.BinarySerializationOverVersions.TestAddedFieldWithOptionalAttribAndData" executed="True" success="True" time="0.413" asserts="0" />
+                                  <test-case name="MonoTests.System.Runtime.Serialization.Formatters.Binary.BinarySerializationOverVersions.TestAddedPrimitiveTypeField" executed="True" success="True" time="0.415" asserts="0" />
+                                  <test-case name="MonoTests.System.Runtime.Serialization.Formatters.Binary.BinarySerializationOverVersions.TestDroppedField" executed="True" success="True" time="0.411" asserts="0" />
+                                  <test-case name="MonoTests.System.Runtime.Serialization.Formatters.Binary.BinarySerializationOverVersions.TestDroppedFieldWithData" executed="True" success="True" time="0.418" asserts="0" />
+                                  <test-case name="MonoTests.System.Runtime.Serialization.Formatters.Binary.BinarySerializationOverVersions.TestDroppedFieldWithOptionalAttrib" executed="True" success="True" time="0.439" asserts="0" />
+                                  <test-case name="MonoTests.System.Runtime.Serialization.Formatters.Binary.BinarySerializationOverVersions.TestDroppedFieldWithOptionalAttribAndData" executed="True" success="True" time="0.412" asserts="0" />
+                                  <test-case name="MonoTests.System.Runtime.Serialization.Formatters.Binary.BinarySerializationOverVersions.TestDroppedPrimitiveTypeField" executed="True" success="True" time="0.413" asserts="0" />
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

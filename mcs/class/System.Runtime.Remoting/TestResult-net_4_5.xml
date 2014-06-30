@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="System.Runtime.Remoting_test_net_4_5.dll" total="243" failures="0" not-run="4" date="2014-06-29" time="12:36:49">
+  <environment nunit-version="2.4.8.0" clr-version="4.0.30319.17020" os-version="Unix 3.15.0.8" platform="Unix" cwd="/store/dash/mono-tizen/mono-sources/mcs/class/System.Runtime.Remoting" machine-name="mini" user="dash" user-domain="mini" />
+  <culture-info current-culture="" current-uiculture="" />
+  <test-suite name="System.Runtime.Remoting_test_net_4_5.dll" success="False" time="7.504" asserts="0">
+    <results>
+      <test-suite name="MonoTests" success="False" time="7.479" asserts="0">
+        <results>
+          <test-suite name="Remoting" success="False" time="7.476" asserts="0">
+            <results>
+              <test-suite name="ActivationTests" success="True" time="0.972" asserts="0">
+                <results>
+                  <test-case name="MonoTests.Remoting.ActivationTests.TestCreateHttpCao" executed="True" success="True" time="0.497" asserts="6" />
+                  <test-case name="MonoTests.Remoting.ActivationTests.TestCreateTcpCao" executed="True" success="True" time="0.027" asserts="6" />
+                  <test-case name="MonoTests.Remoting.ActivationTests.TestCreateTcpWkoSingleCall" executed="True" success="True" time="0.004" asserts="5" />
+                  <test-case name="MonoTests.Remoting.ActivationTests.TestCreateTcpWkoSingleton" executed="True" success="True" time="0.003" asserts="5" />
+                </results>
+              </test-suite>
+              <test-suite name="CrossDomainAsyncCallTest" success="True" time="0.483" asserts="0">
+                <results>
+                  <test-case name="MonoTests.Remoting.CrossDomainAsyncCallTest.TestAbstractComplexParams" executed="True" success="True" time="0.019" asserts="9" />
+                  <test-case name="MonoTests.Remoting.CrossDomainAsyncCallTest.TestAbstractComplexParamsInOut" executed="True" success="True" time="0.015" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.CrossDomainAsyncCallTest.TestAbstractPrimitiveParams" executed="True" success="True" time="0.012" asserts="1" />
+                  <test-case name="MonoTests.Remoting.CrossDomainAsyncCallTest.TestAbstractPrimitiveParamsInOut" executed="True" success="True" time="0.013" asserts="9" />
+                  <test-case name="MonoTests.Remoting.CrossDomainAsyncCallTest.TestAbstractProcessContextData" executed="True" success="True" time="0.025" asserts="13" />
+                  <test-case name="MonoTests.Remoting.CrossDomainAsyncCallTest.TestAbstractSimple" executed="True" success="True" time="0.015" asserts="1" />
+                  <test-case name="MonoTests.Remoting.CrossDomainAsyncCallTest.TestInstanceComplexParams" executed="True" success="True" time="0.013" asserts="9" />
+                  <test-case name="MonoTests.Remoting.CrossDomainAsyncCallTest.TestInstanceComplexParamsInOut" executed="True" success="True" time="0.012" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.CrossDomainAsyncCallTest.TestInstancePrimitiveParams" executed="True" success="True" time="0.012" asserts="1" />
+                  <test-case name="MonoTests.Remoting.CrossDomainAsyncCallTest.TestInstancePrimitiveParamsInOut" executed="True" success="True" time="0.012" asserts="9" />
+                  <test-case name="MonoTests.Remoting.CrossDomainAsyncCallTest.TestInstanceProcessContextData" executed="True" success="True" time="0.023" asserts="13" />
+                  <test-case name="MonoTests.Remoting.CrossDomainAsyncCallTest.TestInstanceSimple" executed="True" success="True" time="0.012" asserts="1" />
+                  <test-case name="MonoTests.Remoting.CrossDomainAsyncCallTest.TestInterfaceComplexParams" executed="True" success="True" time="0.013" asserts="9" />
+                  <test-case name="MonoTests.Remoting.CrossDomainAsyncCallTest.TestInterfaceComplexParamsInOut" executed="True" success="True" time="0.012" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.CrossDomainAsyncCallTest.TestInterfacePrimitiveParams" executed="True" success="True" time="0.012" asserts="1" />
+                  <test-case name="MonoTests.Remoting.CrossDomainAsyncCallTest.TestInterfacePrimitiveParamsInOut" executed="True" success="True" time="0.014" asserts="9" />
+                  <test-case name="MonoTests.Remoting.CrossDomainAsyncCallTest.TestInterfaceProcessContextData" executed="True" success="True" time="0.025" asserts="13" />
+                  <test-case name="MonoTests.Remoting.CrossDomainAsyncCallTest.TestInterfaceSimple" executed="True" success="True" time="0.012" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite name="CrossDomainDelegateCallTest" success="True" time="0.285" asserts="0">
+                <results>
+                  <test-case name="MonoTests.Remoting.CrossDomainDelegateCallTest.TestAbstractComplexParams" executed="True" success="True" time="0.006" asserts="9" />
+                  <test-case name="MonoTests.Remoting.CrossDomainDelegateCallTest.TestAbstractComplexParamsInOut" executed="True" success="True" time="0.005" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.CrossDomainDelegateCallTest.TestAbstractPrimitiveParams" executed="True" success="True" time="0.002" asserts="1" />
+                  <test-case name="MonoTests.Remoting.CrossDomainDelegateCallTest.TestAbstractPrimitiveParamsInOut" executed="True" success="True" time="0.004" asserts="9" />
+                  <test-case name="MonoTests.Remoting.CrossDomainDelegateCallTest.TestAbstractProcessContextData" executed="True" success="True" time="0.010" asserts="13" />
+                  <test-case name="MonoTests.Remoting.CrossDomainDelegateCallTest.TestAbstractSimple" executed="True" success="True" time="0.002" asserts="1" />
+                  <test-case name="MonoTests.Remoting.CrossDomainDelegateCallTest.TestInstanceComplexParams" executed="True" success="True" time="0.002" asserts="9" />
+                  <test-case name="MonoTests.Remoting.CrossDomainDelegateCallTest.TestInstanceComplexParamsInOut" executed="True" success="True" time="0.002" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.CrossDomainDelegateCallTest.TestInstancePrimitiveParams" executed="True" success="True" time="0.001" asserts="1" />
+                  <test-case name="MonoTests.Remoting.CrossDomainDelegateCallTest.TestInstancePrimitiveParamsInOut" executed="True" success="True" time="0.001" asserts="9" />
+                  <test-case name="MonoTests.Remoting.CrossDomainDelegateCallTest.TestInstanceProcessContextData" executed="True" success="True" time="0.002" asserts="13" />
+                  <test-case name="MonoTests.Remoting.CrossDomainDelegateCallTest.TestInstanceSimple" executed="True" success="True" time="0.002" asserts="1" />
+                  <test-case name="MonoTests.Remoting.CrossDomainDelegateCallTest.TestInterfaceComplexParams" executed="True" success="True" time="0.004" asserts="9" />
+                  <test-case name="MonoTests.Remoting.CrossDomainDelegateCallTest.TestInterfaceComplexParamsInOut" executed="True" success="True" time="0.003" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.CrossDomainDelegateCallTest.TestInterfacePrimitiveParams" executed="True" success="True" time="0.002" asserts="1" />
+                  <test-case name="MonoTests.Remoting.CrossDomainDelegateCallTest.TestInterfacePrimitiveParamsInOut" executed="True" success="True" time="0.003" asserts="9" />
+                  <test-case name="MonoTests.Remoting.CrossDomainDelegateCallTest.TestInterfaceProcessContextData" executed="True" success="True" time="0.002" asserts="13" />
+                  <test-case name="MonoTests.Remoting.CrossDomainDelegateCallTest.TestInterfaceSimple" executed="True" success="True" time="0.002" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite name="CrossDomainReflectionCallTest" success="True" time="0.274" asserts="0">
+                <results>
+                  <test-case name="MonoTests.Remoting.CrossDomainReflectionCallTest.TestAbstractComplexParams" executed="True" success="True" time="0.006" asserts="9" />
+                  <test-case name="MonoTests.Remoting.CrossDomainReflectionCallTest.TestAbstractComplexParamsInOut" executed="True" success="True" time="0.006" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.CrossDomainReflectionCallTest.TestAbstractPrimitiveParams" executed="True" success="True" time="0.002" asserts="1" />
+                  <test-case name="MonoTests.Remoting.CrossDomainReflectionCallTest.TestAbstractPrimitiveParamsInOut" executed="True" success="True" time="0.005" asserts="9" />
+                  <test-case name="MonoTests.Remoting.CrossDomainReflectionCallTest.TestAbstractProcessContextData" executed="True" success="True" time="0.010" asserts="13" />
+                  <test-case name="MonoTests.Remoting.CrossDomainReflectionCallTest.TestAbstractSimple" executed="True" success="True" time="0.002" asserts="1" />
+                  <test-case name="MonoTests.Remoting.CrossDomainReflectionCallTest.TestInstanceComplexParams" executed="True" success="True" time="0.002" asserts="9" />
+                  <test-case name="MonoTests.Remoting.CrossDomainReflectionCallTest.TestInstanceComplexParamsInOut" executed="True" success="True" time="0.002" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.CrossDomainReflectionCallTest.TestInstancePrimitiveParams" executed="True" success="True" time="0.001" asserts="1" />
+                  <test-case name="MonoTests.Remoting.CrossDomainReflectionCallTest.TestInstancePrimitiveParamsInOut" executed="True" success="True" time="0.001" asserts="9" />
+                  <test-case name="MonoTests.Remoting.CrossDomainReflectionCallTest.TestInstanceProcessContextData" executed="True" success="True" time="0.002" asserts="13" />
+                  <test-case name="MonoTests.Remoting.CrossDomainReflectionCallTest.TestInstanceSimple" executed="True" success="True" time="0.001" asserts="1" />
+                  <test-case name="MonoTests.Remoting.CrossDomainReflectionCallTest.TestInterfaceComplexParams" executed="True" success="True" time="0.002" asserts="9" />
+                  <test-case name="MonoTests.Remoting.CrossDomainReflectionCallTest.TestInterfaceComplexParamsInOut" executed="True" success="True" time="0.002" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.CrossDomainReflectionCallTest.TestInterfacePrimitiveParams" executed="True" success="True" time="0.001" asserts="1" />
+                  <test-case name="MonoTests.Remoting.CrossDomainReflectionCallTest.TestInterfacePrimitiveParamsInOut" executed="True" success="True" time="0.001" asserts="9" />
+                  <test-case name="MonoTests.Remoting.CrossDomainReflectionCallTest.TestInterfaceProcessContextData" executed="True" success="True" time="0.005" asserts="13" />
+                  <test-case name="MonoTests.Remoting.CrossDomainReflectionCallTest.TestInterfaceSimple" executed="True" success="True" time="0.001" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite name="CrossDomainSyncCallTest" success="True" time="0.306" asserts="0">
+                <results>
+                  <test-case name="MonoTests.Remoting.CrossDomainSyncCallTest.TestAbstractComplexParams" executed="True" success="True" time="0.006" asserts="9" />
+                  <test-case name="MonoTests.Remoting.CrossDomainSyncCallTest.TestAbstractComplexParamsInOut" executed="True" success="True" time="0.005" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.CrossDomainSyncCallTest.TestAbstractPrimitiveParams" executed="True" success="True" time="0.002" asserts="1" />
+                  <test-case name="MonoTests.Remoting.CrossDomainSyncCallTest.TestAbstractPrimitiveParamsInOut" executed="True" success="True" time="0.004" asserts="9" />
+                  <test-case name="MonoTests.Remoting.CrossDomainSyncCallTest.TestAbstractProcessContextData" executed="True" success="True" time="0.010" asserts="13" />
+                  <test-case name="MonoTests.Remoting.CrossDomainSyncCallTest.TestAbstractSimple" executed="True" success="True" time="0.002" asserts="1" />
+                  <test-case name="MonoTests.Remoting.CrossDomainSyncCallTest.TestInstanceComplexParams" executed="True" success="True" time="0.002" asserts="9" />
+                  <test-case name="MonoTests.Remoting.CrossDomainSyncCallTest.TestInstanceComplexParamsInOut" executed="True" success="True" time="0.001" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.CrossDomainSyncCallTest.TestInstancePrimitiveParams" executed="True" success="True" time="0.001" asserts="1" />
+                  <test-case name="MonoTests.Remoting.CrossDomainSyncCallTest.TestInstancePrimitiveParamsInOut" executed="True" success="True" time="0.001" asserts="9" />
+                  <test-case name="MonoTests.Remoting.CrossDomainSyncCallTest.TestInstanceProcessContextData" executed="True" success="True" time="0.002" asserts="13" />
+                  <test-case name="MonoTests.Remoting.CrossDomainSyncCallTest.TestInstanceSimple" executed="True" success="True" time="0.001" asserts="1" />
+                  <test-case name="MonoTests.Remoting.CrossDomainSyncCallTest.TestInterfaceComplexParams" executed="True" success="True" time="0.002" asserts="9" />
+                  <test-case name="MonoTests.Remoting.CrossDomainSyncCallTest.TestInterfaceComplexParamsInOut" executed="True" success="True" time="0.001" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.CrossDomainSyncCallTest.TestInterfacePrimitiveParams" executed="True" success="True" time="0.001" asserts="1" />
+                  <test-case name="MonoTests.Remoting.CrossDomainSyncCallTest.TestInterfacePrimitiveParamsInOut" executed="True" success="True" time="0.001" asserts="9" />
+                  <test-case name="MonoTests.Remoting.CrossDomainSyncCallTest.TestInterfaceProcessContextData" executed="True" success="True" time="0.002" asserts="13" />
+                  <test-case name="MonoTests.Remoting.CrossDomainSyncCallTest.TestInterfaceSimple" executed="True" success="True" time="0.001" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite name="GenericTest" success="True" time="0.242" asserts="0">
+                <results>
+                  <test-case name="MonoTests.Remoting.GenericTest.TestCrossAppDomainChannel" executed="True" success="True" time="0.217" asserts="14">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.GenericTest.TestTcpChannel" executed="True" success="True" time="0.025" asserts="14" />
+                </results>
+              </test-suite>
+              <test-suite name="Http" success="False" time="0.808" asserts="0">
+                <results>
+                  <test-suite name="Bug315170" success="False" time="0.456" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Remoting.Http.Bug315170.Main" executed="True" success="True" time="0.142" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="Bug315570" success="True" time="0.312" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Remoting.Http.Bug315570.Main" executed="False">
+                        <reason>
+                          <message><![CDATA[This test somehow keeps http channel registered and then blocks any further http tests working. This also happens under .NET, so this test itself is wrong with nunit 2.4.8.]]></message>
+                        </reason>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                  <test-suite name="Bug321420" success="True" time="0.035" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Remoting.Http.Bug321420.Main" executed="True" success="True" time="0.033" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="Bug324362" success="True" time="0.001" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.Remoting.Http.Bug324362.Test" executed="False">
+                        <reason>
+                          <message><![CDATA[This test somehow keeps http channel registered and then blocks any further http tests working. This also happens under .NET, so this test itself is wrong with nunit 2.4.8.]]></message>
+                        </reason>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite name="HttpServerChannelTests" success="True" time="0.002" asserts="0">
+                <results>
+                  <test-case name="MonoTests.Remoting.HttpServerChannelTests.ParseURL" executed="False">
+                    <reason>
+                      <message><![CDATA[Fails on MS]]></message>
+                    </reason>
+                  </test-case>
+                </results>
+              </test-suite>
+              <test-suite name="IpcAsyncCallTest" success="True" time="0.620" asserts="0">
+                <results>
+                  <test-case name="MonoTests.Remoting.IpcAsyncCallTest.TestAbstractComplexParams" executed="True" success="True" time="0.038" asserts="9" />
+                  <test-case name="MonoTests.Remoting.IpcAsyncCallTest.TestAbstractComplexParamsInOut" executed="True" success="True" time="0.020" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.IpcAsyncCallTest.TestAbstractPrimitiveParams" executed="True" success="True" time="0.013" asserts="1" />
+                  <test-case name="MonoTests.Remoting.IpcAsyncCallTest.TestAbstractPrimitiveParamsInOut" executed="True" success="True" time="0.016" asserts="9" />
+                  <test-case name="MonoTests.Remoting.IpcAsyncCallTest.TestAbstractProcessContextData" executed="True" success="True" time="0.023" asserts="13" />
+                  <test-case name="MonoTests.Remoting.IpcAsyncCallTest.TestAbstractSimple" executed="True" success="True" time="0.011" asserts="1" />
+                  <test-case name="MonoTests.Remoting.IpcAsyncCallTest.TestInstanceComplexParams" executed="True" success="True" time="0.011" asserts="9" />
+                  <test-case name="MonoTests.Remoting.IpcAsyncCallTest.TestInstanceComplexParamsInOut" executed="True" success="True" time="0.011" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.IpcAsyncCallTest.TestInstancePrimitiveParams" executed="True" success="True" time="0.012" asserts="1" />
+                  <test-case name="MonoTests.Remoting.IpcAsyncCallTest.TestInstancePrimitiveParamsInOut" executed="True" success="True" time="0.011" asserts="9" />
+                  <test-case name="MonoTests.Remoting.IpcAsyncCallTest.TestInstanceProcessContextData" executed="True" success="True" time="0.022" asserts="13" />
+                  <test-case name="MonoTests.Remoting.IpcAsyncCallTest.TestInstanceSimple" executed="True" success="True" time="0.011" asserts="1" />
+                  <test-case name="MonoTests.Remoting.IpcAsyncCallTest.TestInterfaceComplexParams" executed="True" success="True" time="0.011" asserts="9" />
+                  <test-case name="MonoTests.Remoting.IpcAsyncCallTest.TestInterfaceComplexParamsInOut" executed="True" success="True" time="0.011" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.IpcAsyncCallTest.TestInterfacePrimitiveParams" executed="True" success="True" time="0.011" asserts="1" />
+                  <test-case name="MonoTests.Remoting.IpcAsyncCallTest.TestInterfacePrimitiveParamsInOut" executed="True" success="True" time="0.011" asserts="9" />
+                  <test-case name="MonoTests.Remoting.IpcAsyncCallTest.TestInterfaceProcessContextData" executed="True" success="True" time="0.022" asserts="13" />
+                  <test-case name="MonoTests.Remoting.IpcAsyncCallTest.TestInterfaceSimple" executed="True" success="True" time="0.011" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite name="IpcChannelTest" success="True" time="0.436" asserts="0">
+                <results>
+                  <test-case name="MonoTests.Remoting.IpcChannelTest.Bug609381" executed="True" success="True" time="0.422" asserts="4" />
+                  <test-case name="MonoTests.Remoting.IpcChannelTest.Bug81653" executed="True" success="True" time="0.001" asserts="0" />
+                  <test-case name="MonoTests.Remoting.IpcChannelTest.TestCtor2" executed="True" success="True" time="0.005" asserts="3" />
+                  <test-case name="MonoTests.Remoting.IpcChannelTest.TestCtor3" executed="True" success="True" time="0.002" asserts="3" />
+                </results>
+              </test-suite>
+              <test-suite name="IpcDelegateCallTest" success="True" time="0.411" asserts="0">
+                <results>
+                  <test-case name="MonoTests.Remoting.IpcDelegateCallTest.TestAbstractComplexParams" executed="True" success="True" time="0.024" asserts="9" />
+                  <test-case name="MonoTests.Remoting.IpcDelegateCallTest.TestAbstractComplexParamsInOut" executed="True" success="True" time="0.007" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.IpcDelegateCallTest.TestAbstractPrimitiveParams" executed="True" success="True" time="0.003" asserts="1" />
+                  <test-case name="MonoTests.Remoting.IpcDelegateCallTest.TestAbstractPrimitiveParamsInOut" executed="True" success="True" time="0.007" asserts="9" />
+                  <test-case name="MonoTests.Remoting.IpcDelegateCallTest.TestAbstractProcessContextData" executed="True" success="True" time="0.011" asserts="13" />
+                  <test-case name="MonoTests.Remoting.IpcDelegateCallTest.TestAbstractSimple" executed="True" success="True" time="0.002" asserts="1" />
+                  <test-case name="MonoTests.Remoting.IpcDelegateCallTest.TestInstanceComplexParams" executed="True" success="True" time="0.002" asserts="9" />
+                  <test-case name="MonoTests.Remoting.IpcDelegateCallTest.TestInstanceComplexParamsInOut" executed="True" success="True" time="0.002" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.IpcDelegateCallTest.TestInstancePrimitiveParams" executed="True" success="True" time="0.005" asserts="1" />
+                  <test-case name="MonoTests.Remoting.IpcDelegateCallTest.TestInstancePrimitiveParamsInOut" executed="True" success="True" time="0.003" asserts="9" />
+                  <test-case name="MonoTests.Remoting.IpcDelegateCallTest.TestInstanceProcessContextData" executed="True" success="True" time="0.004" asserts="13" />
+                  <test-case name="MonoTests.Remoting.IpcDelegateCallTest.TestInstanceSimple" executed="True" success="True" time="0.002" asserts="1" />
+                  <test-case name="MonoTests.Remoting.IpcDelegateCallTest.TestInterfaceComplexParams" executed="True" success="True" time="0.003" asserts="9" />
+                  <test-case name="MonoTests.Remoting.IpcDelegateCallTest.TestInterfaceComplexParamsInOut" executed="True" success="True" time="0.003" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.IpcDelegateCallTest.TestInterfacePrimitiveParams" executed="True" success="True" time="0.001" asserts="1" />
+                  <test-case name="MonoTests.Remoting.IpcDelegateCallTest.TestInterfacePrimitiveParamsInOut" executed="True" success="True" time="0.001" asserts="9" />
+                  <test-case name="MonoTests.Remoting.IpcDelegateCallTest.TestInterfaceProcessContextData" executed="True" success="True" time="0.001" asserts="13" />
+                  <test-case name="MonoTests.Remoting.IpcDelegateCallTest.TestInterfaceSimple" executed="True" success="True" time="0.001" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite name="IpcReflectionCallTest" success="True" time="0.373" asserts="0">
+                <results>
+                  <test-case name="MonoTests.Remoting.IpcReflectionCallTest.TestAbstractComplexParams" executed="True" success="True" time="0.020" asserts="9" />
+                  <test-case name="MonoTests.Remoting.IpcReflectionCallTest.TestAbstractComplexParamsInOut" executed="True" success="True" time="0.005" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.IpcReflectionCallTest.TestAbstractPrimitiveParams" executed="True" success="True" time="0.001" asserts="1" />
+                  <test-case name="MonoTests.Remoting.IpcReflectionCallTest.TestAbstractPrimitiveParamsInOut" executed="True" success="True" time="0.005" asserts="9" />
+                  <test-case name="MonoTests.Remoting.IpcReflectionCallTest.TestAbstractProcessContextData" executed="True" success="True" time="0.009" asserts="13" />
+                  <test-case name="MonoTests.Remoting.IpcReflectionCallTest.TestAbstractSimple" executed="True" success="True" time="0.001" asserts="1" />
+                  <test-case name="MonoTests.Remoting.IpcReflectionCallTest.TestInstanceComplexParams" executed="True" success="True" time="0.001" asserts="9" />
+                  <test-case name="MonoTests.Remoting.IpcReflectionCallTest.TestInstanceComplexParamsInOut" executed="True" success="True" time="0.001" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.IpcReflectionCallTest.TestInstancePrimitiveParams" executed="True" success="True" time="0.002" asserts="1" />
+                  <test-case name="MonoTests.Remoting.IpcReflectionCallTest.TestInstancePrimitiveParamsInOut" executed="True" success="True" time="0.001" asserts="9" />
+                  <test-case name="MonoTests.Remoting.IpcReflectionCallTest.TestInstanceProcessContextData" executed="True" success="True" time="0.001" asserts="13" />
+                  <test-case name="MonoTests.Remoting.IpcReflectionCallTest.TestInstanceSimple" executed="True" success="True" time="0.001" asserts="1" />
+                  <test-case name="MonoTests.Remoting.IpcReflectionCallTest.TestInterfaceComplexParams" executed="True" success="True" time="0.001" asserts="9" />
+                  <test-case name="MonoTests.Remoting.IpcReflectionCallTest.TestInterfaceComplexParamsInOut" executed="True" success="True" time="0.001" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.IpcReflectionCallTest.TestInterfacePrimitiveParams" executed="True" success="True" time="0.001" asserts="1" />
+                  <test-case name="MonoTests.Remoting.IpcReflectionCallTest.TestInterfacePrimitiveParamsInOut" executed="True" success="True" time="0.001" asserts="9" />
+                  <test-case name="MonoTests.Remoting.IpcReflectionCallTest.TestInterfaceProcessContextData" executed="True" success="True" time="0.001" asserts="13" />
+                  <test-case name="MonoTests.Remoting.IpcReflectionCallTest.TestInterfaceSimple" executed="True" success="True" time="0.001" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite name="IpcSyncCallTest" success="True" time="0.375" asserts="0">
+                <results>
+                  <test-case name="MonoTests.Remoting.IpcSyncCallTest.TestAbstractComplexParams" executed="True" success="True" time="0.020" asserts="9" />
+                  <test-case name="MonoTests.Remoting.IpcSyncCallTest.TestAbstractComplexParamsInOut" executed="True" success="True" time="0.005" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.IpcSyncCallTest.TestAbstractPrimitiveParams" executed="True" success="True" time="0.002" asserts="1" />
+                  <test-case name="MonoTests.Remoting.IpcSyncCallTest.TestAbstractPrimitiveParamsInOut" executed="True" success="True" time="0.005" asserts="9" />
+                  <test-case name="MonoTests.Remoting.IpcSyncCallTest.TestAbstractProcessContextData" executed="True" success="True" time="0.009" asserts="13" />
+                  <test-case name="MonoTests.Remoting.IpcSyncCallTest.TestAbstractSimple" executed="True" success="True" time="0.001" asserts="1" />
+                  <test-case name="MonoTests.Remoting.IpcSyncCallTest.TestInstanceComplexParams" executed="True" success="True" time="0.001" asserts="9" />
+                  <test-case name="MonoTests.Remoting.IpcSyncCallTest.TestInstanceComplexParamsInOut" executed="True" success="True" time="0.001" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.IpcSyncCallTest.TestInstancePrimitiveParams" executed="True" success="True" time="0.003" asserts="1" />
+                  <test-case name="MonoTests.Remoting.IpcSyncCallTest.TestInstancePrimitiveParamsInOut" executed="True" success="True" time="0.001" asserts="9" />
+                  <test-case name="MonoTests.Remoting.IpcSyncCallTest.TestInstanceProcessContextData" executed="True" success="True" time="0.001" asserts="13" />
+                  <test-case name="MonoTests.Remoting.IpcSyncCallTest.TestInstanceSimple" executed="True" success="True" time="0.001" asserts="1" />
+                  <test-case name="MonoTests.Remoting.IpcSyncCallTest.TestInterfaceComplexParams" executed="True" success="True" time="0.001" asserts="9" />
+                  <test-case name="MonoTests.Remoting.IpcSyncCallTest.TestInterfaceComplexParamsInOut" executed="True" success="True" time="0.001" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.IpcSyncCallTest.TestInterfacePrimitiveParams" executed="True" success="True" time="0.001" asserts="1" />
+                  <test-case name="MonoTests.Remoting.IpcSyncCallTest.TestInterfacePrimitiveParamsInOut" executed="True" success="True" time="0.001" asserts="9" />
+                  <test-case name="MonoTests.Remoting.IpcSyncCallTest.TestInterfaceProcessContextData" executed="True" success="True" time="0.002" asserts="13" />
+                  <test-case name="MonoTests.Remoting.IpcSyncCallTest.TestInterfaceSimple" executed="True" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite name="RemotingServicesTest" success="True" time="0.123" asserts="0">
+                <results>
+                  <test-case name="MonoTests.Remoting.RemotingServicesTest.ApplicationNameTest" executed="True" success="True" time="0.014" asserts="9" />
+                  <test-case name="MonoTests.Remoting.RemotingServicesTest.Connect" executed="True" success="True" time="0.006" asserts="1" />
+                  <test-case name="MonoTests.Remoting.RemotingServicesTest.ConnectProxyCast" executed="False">
+                    <reason>
+                      <message><![CDATA[We cannot test RemotingConfiguration.Configure() because it keeps channels registered. If we really need to test it, do it as a standalone case]]></message>
+                    </reason>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.RemotingServicesTest.ExecuteMessage" executed="True" success="True" time="0.013" asserts="4" />
+                  <test-case name="MonoTests.Remoting.RemotingServicesTest.GetObjectUri" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="MonoTests.Remoting.RemotingServicesTest.GetObjectWithChannelDataTest" executed="True" success="True" time="0.001" asserts="1" />
+                  <test-case name="MonoTests.Remoting.RemotingServicesTest.GetObjRefForProxy" executed="True" success="True" time="0.005" asserts="1" />
+                  <test-case name="MonoTests.Remoting.RemotingServicesTest.GetRealProxy" executed="True" success="True" time="0.004" asserts="2" />
+                  <test-case name="MonoTests.Remoting.RemotingServicesTest.GetServeurTypeForUri" executed="True" success="True" time="0.003" asserts="1" />
+                  <test-case name="MonoTests.Remoting.RemotingServicesTest.IsOneWay" executed="True" success="True" time="0.048" asserts="3" />
+                  <test-case name="MonoTests.Remoting.RemotingServicesTest.Marshal1" executed="True" success="True" time="0.002" asserts="4" />
+                  <test-case name="MonoTests.Remoting.RemotingServicesTest.Marshal2" executed="True" success="True" time="0.001" asserts="1" />
+                  <test-case name="MonoTests.Remoting.RemotingServicesTest.MarshalThrowException" executed="True" success="True" time="0.001" asserts="0" />
+                  <test-case name="MonoTests.Remoting.RemotingServicesTest.SetObjectUriForMarshal" executed="True" success="True" time="0.001" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite name="TcpAsyncCallTest" success="True" time="0.575" asserts="0">
+                <results>
+                  <test-case name="MonoTests.Remoting.TcpAsyncCallTest.TestAbstractComplexParams" executed="True" success="True" time="0.024" asserts="9" />
+                  <test-case name="MonoTests.Remoting.TcpAsyncCallTest.TestAbstractComplexParamsInOut" executed="True" success="True" time="0.011" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.TcpAsyncCallTest.TestAbstractPrimitiveParams" executed="True" success="True" time="0.011" asserts="1" />
+                  <test-case name="MonoTests.Remoting.TcpAsyncCallTest.TestAbstractPrimitiveParamsInOut" executed="True" success="True" time="0.011" asserts="9" />
+                  <test-case name="MonoTests.Remoting.TcpAsyncCallTest.TestAbstractProcessContextData" executed="True" success="True" time="0.022" asserts="13" />
+                  <test-case name="MonoTests.Remoting.TcpAsyncCallTest.TestAbstractSimple" executed="True" success="True" time="0.011" asserts="1" />
+                  <test-case name="MonoTests.Remoting.TcpAsyncCallTest.TestInstanceComplexParams" executed="True" success="True" time="0.011" asserts="9" />
+                  <test-case name="MonoTests.Remoting.TcpAsyncCallTest.TestInstanceComplexParamsInOut" executed="True" success="True" time="0.011" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.TcpAsyncCallTest.TestInstancePrimitiveParams" executed="True" success="True" time="0.016" asserts="1" />
+                  <test-case name="MonoTests.Remoting.TcpAsyncCallTest.TestInstancePrimitiveParamsInOut" executed="True" success="True" time="0.011" asserts="9" />
+                  <test-case name="MonoTests.Remoting.TcpAsyncCallTest.TestInstanceProcessContextData" executed="True" success="True" time="0.022" asserts="13" />
+                  <test-case name="MonoTests.Remoting.TcpAsyncCallTest.TestInstanceSimple" executed="True" success="True" time="0.011" asserts="1" />
+                  <test-case name="MonoTests.Remoting.TcpAsyncCallTest.TestInterfaceComplexParams" executed="True" success="True" time="0.011" asserts="9" />
+                  <test-case name="MonoTests.Remoting.TcpAsyncCallTest.TestInterfaceComplexParamsInOut" executed="True" success="True" time="0.011" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.TcpAsyncCallTest.TestInterfacePrimitiveParams" executed="True" success="True" time="0.011" asserts="1" />
+                  <test-case name="MonoTests.Remoting.TcpAsyncCallTest.TestInterfacePrimitiveParamsInOut" executed="True" success="True" time="0.011" asserts="9" />
+                  <test-case name="MonoTests.Remoting.TcpAsyncCallTest.TestInterfaceProcessContextData" executed="True" success="True" time="0.023" asserts="13" />
+                  <test-case name="MonoTests.Remoting.TcpAsyncCallTest.TestInterfaceSimple" executed="True" success="True" time="0.011" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite name="TcpChannelTest" success="True" time="0.006" asserts="0">
+                <results>
+                  <test-case name="MonoTests.Remoting.TcpChannelTest.Constructor3" executed="True" success="True" time="0.002" asserts="10" />
+                  <test-case name="MonoTests.Remoting.TcpChannelTest.ParseURL" executed="True" success="True" time="0.000" asserts="22" />
+                </results>
+              </test-suite>
+              <test-suite name="TcpDelegateCallTest" success="True" time="0.376" asserts="0">
+                <results>
+                  <test-case name="MonoTests.Remoting.TcpDelegateCallTest.TestAbstractComplexParams" executed="True" success="True" time="0.023" asserts="9" />
+                  <test-case name="MonoTests.Remoting.TcpDelegateCallTest.TestAbstractComplexParamsInOut" executed="True" success="True" time="0.005" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.TcpDelegateCallTest.TestAbstractPrimitiveParams" executed="True" success="True" time="0.002" asserts="1" />
+                  <test-case name="MonoTests.Remoting.TcpDelegateCallTest.TestAbstractPrimitiveParamsInOut" executed="True" success="True" time="0.005" asserts="9" />
+                  <test-case name="MonoTests.Remoting.TcpDelegateCallTest.TestAbstractProcessContextData" executed="True" success="True" time="0.010" asserts="13" />
+                  <test-case name="MonoTests.Remoting.TcpDelegateCallTest.TestAbstractSimple" executed="True" success="True" time="0.001" asserts="1" />
+                  <test-case name="MonoTests.Remoting.TcpDelegateCallTest.TestInstanceComplexParams" executed="True" success="True" time="0.001" asserts="9" />
+                  <test-case name="MonoTests.Remoting.TcpDelegateCallTest.TestInstanceComplexParamsInOut" executed="True" success="True" time="0.007" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.TcpDelegateCallTest.TestInstancePrimitiveParams" executed="True" success="True" time="0.003" asserts="1" />
+                  <test-case name="MonoTests.Remoting.TcpDelegateCallTest.TestInstancePrimitiveParamsInOut" executed="True" success="True" time="0.001" asserts="9" />
+                  <test-case name="MonoTests.Remoting.TcpDelegateCallTest.TestInstanceProcessContextData" executed="True" success="True" time="0.002" asserts="13" />
+                  <test-case name="MonoTests.Remoting.TcpDelegateCallTest.TestInstanceSimple" executed="True" success="True" time="0.001" asserts="1" />
+                  <test-case name="MonoTests.Remoting.TcpDelegateCallTest.TestInterfaceComplexParams" executed="True" success="True" time="0.001" asserts="9" />
+                  <test-case name="MonoTests.Remoting.TcpDelegateCallTest.TestInterfaceComplexParamsInOut" executed="True" success="True" time="0.001" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.TcpDelegateCallTest.TestInterfacePrimitiveParams" executed="True" success="True" time="0.001" asserts="1" />
+                  <test-case name="MonoTests.Remoting.TcpDelegateCallTest.TestInterfacePrimitiveParamsInOut" executed="True" success="True" time="0.001" asserts="9" />
+                  <test-case name="MonoTests.Remoting.TcpDelegateCallTest.TestInterfaceProcessContextData" executed="True" success="True" time="0.001" asserts="13" />
+                  <test-case name="MonoTests.Remoting.TcpDelegateCallTest.TestInterfaceSimple" executed="True" success="True" time="0.001" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite name="TcpReflectionCallTest" success="True" time="0.386" asserts="0">
+                <results>
+                  <test-case name="MonoTests.Remoting.TcpReflectionCallTest.TestAbstractComplexParams" executed="True" success="True" time="0.023" asserts="9" />
+                  <test-case name="MonoTests.Remoting.TcpReflectionCallTest.TestAbstractComplexParamsInOut" executed="True" success="True" time="0.006" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.TcpReflectionCallTest.TestAbstractPrimitiveParams" executed="True" success="True" time="0.002" asserts="1" />
+                  <test-case name="MonoTests.Remoting.TcpReflectionCallTest.TestAbstractPrimitiveParamsInOut" executed="True" success="True" time="0.006" asserts="9" />
+                  <test-case name="MonoTests.Remoting.TcpReflectionCallTest.TestAbstractProcessContextData" executed="True" success="True" time="0.009" asserts="13" />
+                  <test-case name="MonoTests.Remoting.TcpReflectionCallTest.TestAbstractSimple" executed="True" success="True" time="0.001" asserts="1" />
+                  <test-case name="MonoTests.Remoting.TcpReflectionCallTest.TestInstanceComplexParams" executed="True" success="True" time="0.003" asserts="9" />
+                  <test-case name="MonoTests.Remoting.TcpReflectionCallTest.TestInstanceComplexParamsInOut" executed="True" success="True" time="0.007" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.TcpReflectionCallTest.TestInstancePrimitiveParams" executed="True" success="True" time="0.002" asserts="1" />
+                  <test-case name="MonoTests.Remoting.TcpReflectionCallTest.TestInstancePrimitiveParamsInOut" executed="True" success="True" time="0.001" asserts="9" />
+                  <test-case name="MonoTests.Remoting.TcpReflectionCallTest.TestInstanceProcessContextData" executed="True" success="True" time="0.001" asserts="13" />
+                  <test-case name="MonoTests.Remoting.TcpReflectionCallTest.TestInstanceSimple" executed="True" success="True" time="0.001" asserts="1" />
+                  <test-case name="MonoTests.Remoting.TcpReflectionCallTest.TestInterfaceComplexParams" executed="True" success="True" time="0.001" asserts="9" />
+                  <test-case name="MonoTests.Remoting.TcpReflectionCallTest.TestInterfaceComplexParamsInOut" executed="True" success="True" time="0.001" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.TcpReflectionCallTest.TestInterfacePrimitiveParams" executed="True" success="True" time="0.001" asserts="1" />
+                  <test-case name="MonoTests.Remoting.TcpReflectionCallTest.TestInterfacePrimitiveParamsInOut" executed="True" success="True" time="0.001" asserts="9" />
+                  <test-case name="MonoTests.Remoting.TcpReflectionCallTest.TestInterfaceProcessContextData" executed="True" success="True" time="0.002" asserts="13" />
+                  <test-case name="MonoTests.Remoting.TcpReflectionCallTest.TestInterfaceSimple" executed="True" success="True" time="0.001" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite name="TcpSyncCallTest" success="True" time="0.386" asserts="0">
+                <results>
+                  <test-case name="MonoTests.Remoting.TcpSyncCallTest.TestAbstractComplexParams" executed="True" success="True" time="0.023" asserts="9" />
+                  <test-case name="MonoTests.Remoting.TcpSyncCallTest.TestAbstractComplexParamsInOut" executed="True" success="True" time="0.005" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.TcpSyncCallTest.TestAbstractPrimitiveParams" executed="True" success="True" time="0.002" asserts="1" />
+                  <test-case name="MonoTests.Remoting.TcpSyncCallTest.TestAbstractPrimitiveParamsInOut" executed="True" success="True" time="0.005" asserts="9" />
+                  <test-case name="MonoTests.Remoting.TcpSyncCallTest.TestAbstractProcessContextData" executed="True" success="True" time="0.009" asserts="13" />
+                  <test-case name="MonoTests.Remoting.TcpSyncCallTest.TestAbstractSimple" executed="True" success="True" time="0.001" asserts="1" />
+                  <test-case name="MonoTests.Remoting.TcpSyncCallTest.TestInstanceComplexParams" executed="True" success="True" time="0.001" asserts="9" />
+                  <test-case name="MonoTests.Remoting.TcpSyncCallTest.TestInstanceComplexParamsInOut" executed="True" success="True" time="0.001" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.TcpSyncCallTest.TestInstancePrimitiveParams" executed="True" success="True" time="0.009" asserts="1" />
+                  <test-case name="MonoTests.Remoting.TcpSyncCallTest.TestInstancePrimitiveParamsInOut" executed="True" success="True" time="0.001" asserts="9" />
+                  <test-case name="MonoTests.Remoting.TcpSyncCallTest.TestInstanceProcessContextData" executed="True" success="True" time="0.002" asserts="13" />
+                  <test-case name="MonoTests.Remoting.TcpSyncCallTest.TestInstanceSimple" executed="True" success="True" time="0.001" asserts="1" />
+                  <test-case name="MonoTests.Remoting.TcpSyncCallTest.TestInterfaceComplexParams" executed="True" success="True" time="0.001" asserts="9" />
+                  <test-case name="MonoTests.Remoting.TcpSyncCallTest.TestInterfaceComplexParamsInOut" executed="True" success="True" time="0.001" asserts="120">
+                    <categories>
+                      <category name="NotDotNet" />
+                    </categories>
+                  </test-case>
+                  <test-case name="MonoTests.Remoting.TcpSyncCallTest.TestInterfacePrimitiveParams" executed="True" success="True" time="0.001" asserts="1" />
+                  <test-case name="MonoTests.Remoting.TcpSyncCallTest.TestInterfacePrimitiveParamsInOut" executed="True" success="True" time="0.001" asserts="9" />
+                  <test-case name="MonoTests.Remoting.TcpSyncCallTest.TestInterfaceProcessContextData" executed="True" success="True" time="0.001" asserts="13" />
+                  <test-case name="MonoTests.Remoting.TcpSyncCallTest.TestInterfaceSimple" executed="True" success="True" time="0.001" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

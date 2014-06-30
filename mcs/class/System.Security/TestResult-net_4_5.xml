@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="System.Security_test_net_4_5.dll" total="473" failures="0" not-run="21" date="2014-06-29" time="12:37:10">
+  <environment nunit-version="2.4.8.0" clr-version="4.0.30319.17020" os-version="Unix 3.15.0.8" platform="Unix" cwd="/store/dash/mono-tizen/mono-sources/mcs/class/System.Security" machine-name="mini" user="dash" user-domain="mini" />
+  <culture-info current-culture="" current-uiculture="" />
+  <test-suite name="System.Security_test_net_4_5.dll" success="True" time="8.452" asserts="0">
+    <results>
+      <test-suite name="MonoTests" success="True" time="8.391" asserts="0">
+        <results>
+          <test-suite name="System" success="True" time="8.340" asserts="0">
+            <results>
+              <test-suite name="Security" success="True" time="8.338" asserts="0">
+                <results>
+                  <test-suite name="Cryptography" success="True" time="8.238" asserts="0">
+                    <results>
+                      <test-suite name="CryptographicAttributeObjectCollectionTest" success="True" time="0.043" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.System.Security.Cryptography.CryptographicAttributeObjectCollectionTest.Add_AsnEncodedData_Null" executed="True" success="True" time="0.004" asserts="0" />
+                          <test-case name="MonoTests.System.Security.Cryptography.CryptographicAttributeObjectCollectionTest.Add_CryptographicAttributeObject_Null" executed="True" success="True" time="0.001" asserts="0" />
+                          <test-case name="MonoTests.System.Security.Cryptography.CryptographicAttributeObjectCollectionTest.Add_MultipleSameOid" executed="True" success="True" time="0.008" asserts="20" />
+                          <test-case name="MonoTests.System.Security.Cryptography.CryptographicAttributeObjectCollectionTest.Constructor_CryptographicAttributeObject" executed="True" success="True" time="0.010" asserts="10" />
+                          <test-case name="MonoTests.System.Security.Cryptography.CryptographicAttributeObjectCollectionTest.Constructor_Empty" executed="True" success="True" time="0.000" asserts="9" />
+                          <test-case name="MonoTests.System.Security.Cryptography.CryptographicAttributeObjectCollectionTest.CopyTo_Null" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Security.Cryptography.CryptographicAttributeObjectCollectionTest.ICollection_CopyTo_Null" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Security.Cryptography.CryptographicAttributeObjectCollectionTest.Remove_MultipleSameOid_First" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.System.Security.Cryptography.CryptographicAttributeObjectCollectionTest.Remove_MultipleSameOid_Last" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.System.Security.Cryptography.CryptographicAttributeObjectCollectionTest.Remove_Null" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Security.Cryptography.CryptographicAttributeObjectCollectionTest.Remove_Null_WithNullItem" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.System.Security.Cryptography.CryptographicAttributeObjectCollectionTest.Remove_WithDifferentInstance" executed="True" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="CryptographicAttributeObjectEnumeratorTest" success="True" time="0.004" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.System.Security.Cryptography.CryptographicAttributeObjectEnumeratorTest.Empty" executed="True" success="True" time="0.001" asserts="4" />
+                          <test-case name="MonoTests.System.Security.Cryptography.CryptographicAttributeObjectEnumeratorTest.One_AsnEncodedData" executed="True" success="True" time="0.000" asserts="4" />
+                          <test-case name="MonoTests.System.Security.Cryptography.CryptographicAttributeObjectEnumeratorTest.One_CryptographicAttributeObject" executed="True" success="True" time="0.000" asserts="4" />
+                          <test-case name="MonoTests.System.Security.Cryptography.CryptographicAttributeObjectEnumeratorTest.Two_Both" executed="True" success="True" time="0.000" asserts="4" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="CryptographicAttributeTest" success="True" time="0.005" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.System.Security.Cryptography.CryptographicAttributeTest.ConstructorOid" executed="True" success="True" time="0.001" asserts="3" />
+                          <test-case name="MonoTests.System.Security.Cryptography.CryptographicAttributeTest.ConstructorOidAsnEncodedDataCollectionNull" executed="True" success="True" time="0.000" asserts="3" />
+                          <test-case name="MonoTests.System.Security.Cryptography.CryptographicAttributeTest.ConstructorOidCollection" executed="True" success="True" time="0.001" asserts="4" />
+                          <test-case name="MonoTests.System.Security.Cryptography.CryptographicAttributeTest.ConstructorOidNull" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Security.Cryptography.CryptographicAttributeTest.ConstructorOidNullCollection" executed="True" success="True" time="0.000" asserts="0" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="Pkcs" success="True" time="0.522" asserts="0">
+                        <results>
+                          <test-suite name="AlgorithmIdentifierTest" success="True" time="0.005" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.AlgorithmIdentifierTest.ConstructorEmpty" executed="True" success="True" time="0.001" asserts="4" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.AlgorithmIdentifierTest.ConstructorOid" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.AlgorithmIdentifierTest.ConstructorOidKeyLength" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.AlgorithmIdentifierTest.ConstructorOidKeyLengthNegative" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.AlgorithmIdentifierTest.ConstructorOidNull" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.AlgorithmIdentifierTest.ConstructorOidNullKeyLength" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.AlgorithmIdentifierTest.KeyLength" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.AlgorithmIdentifierTest.Oid" executed="True" success="True" time="0.000" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.AlgorithmIdentifierTest.Parameters" executed="True" success="True" time="0.001" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="CmsRecipientCollectionTest" success="True" time="0.001" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.CmsRecipientCollectionTest.Ctor_SubjectIdentifierType_X509Certificate2CollectionNull" executed="True" success="True" time="0.001" asserts="0" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="CmsRecipientTest" success="True" time="0.141" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.CmsRecipientTest.IssuerAndSerialNumber" executed="True" success="True" time="0.091" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.CmsRecipientTest.NullCertificate" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.CmsRecipientTest.SubjectKeyIdentifier" executed="True" success="True" time="0.025" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.CmsRecipientTest.Unknown" executed="True" success="True" time="0.020" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="CmsSignerTest" success="True" time="0.026" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.CmsSignerTest.Certificate" executed="True" success="True" time="0.001" asserts="3" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.CmsSignerTest.ConstructorEmpty" executed="True" success="True" time="0.001" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.CmsSignerTest.ConstructorIssuerAndSerialNumber" executed="True" success="True" time="0.001" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.CmsSignerTest.ConstructorIssuerAndSerialNumberX509CertificateEx" executed="True" success="True" time="0.001" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.CmsSignerTest.ConstructorIssuerAndSerialNumberX509CertificateExNull" executed="True" success="True" time="0.000" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.CmsSignerTest.ConstructorSubjectKeyIdentifier" executed="True" success="True" time="0.000" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.CmsSignerTest.ConstructorSubjectKeyIdentifierX509CertificateEx" executed="True" success="True" time="0.001" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.CmsSignerTest.ConstructorUnknown" executed="True" success="True" time="0.000" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.CmsSignerTest.ConstructorUnknownX509CertificateEx" executed="True" success="True" time="0.001" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.CmsSignerTest.ConstructorX509CertificateEx" executed="True" success="True" time="0.002" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.CmsSignerTest.ConstructorX509CertificateExEmpty" executed="True" success="True" time="0.001" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.CmsSignerTest.ConstructorX509CertificateExNull" executed="True" success="True" time="0.000" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.CmsSignerTest.Digest" executed="True" success="True" time="0.002" asserts="3" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.CmsSignerTest.IncludeOption" executed="True" success="True" time="0.000" asserts="4" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.CmsSignerTest.SignedAttributes" executed="True" success="True" time="0.003" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.CmsSignerTest.SubjectIdentifierTypeProperty" executed="True" success="True" time="0.001" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.CmsSignerTest.SubjectIdentifierTypeUnknown" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.CmsSignerTest.UnauthenticatedAttributes" executed="True" success="True" time="0.000" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="ContentInfoTest" success="True" time="0.024" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.ContentInfoTest.ConstructorContent" executed="True" success="True" time="0.001" asserts="3" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.ContentInfoTest.ConstructorNonPkcs7Oid" executed="True" success="True" time="0.000" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.ContentInfoTest.ConstructorOidContent" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.ContentInfoTest.ConstructorOidContentNull" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.ContentInfoTest.ConstructorOidNull" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.ContentInfoTest.ConstructorOidNullContent" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.ContentInfoTest.GetContentType_data" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.ContentInfoTest.GetContentType_digestedData" executed="False">
+                                <reason>
+                                  <message><![CDATA[need a working sample]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.ContentInfoTest.GetContentType_encryptedData" executed="False">
+                                <reason>
+                                  <message><![CDATA[need a working sample]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.ContentInfoTest.GetContentType_envelopedData" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.ContentInfoTest.GetContentType_invalid" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.ContentInfoTest.GetContentType_signedAndEnvelopedData" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.ContentInfoTest.GetContentType_signedData" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.ContentInfoTest.GetContentType_unknown" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.ContentInfoTest.GetContentTypeBadASN1" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.ContentInfoTest.GetContentTypeNull" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.ContentInfoTest.Oid_ModifyContent" executed="True" success="True" time="0.000" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="EnvelopedCmsTest" success="True" time="0.030" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.EnvelopedCmsTest.ConstructorContentInfo" executed="True" success="True" time="0.002" asserts="11" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.EnvelopedCmsTest.ConstructorContentInfoAlgorithmIdentifier" executed="True" success="True" time="0.000" asserts="11" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.EnvelopedCmsTest.ConstructorContentInfoAlgorithmIdentifierNull" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.EnvelopedCmsTest.ConstructorContentInfoNull" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.EnvelopedCmsTest.ConstructorContentInfoNullAlgorithmIdentifier" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.EnvelopedCmsTest.ConstructorEmpty" executed="True" success="True" time="0.000" asserts="11" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.EnvelopedCmsTest.ConstructorSubjectIdentifierTypeIssuerAndSerialNumberContentInfo" executed="True" success="True" time="0.000" asserts="11" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.EnvelopedCmsTest.ConstructorSubjectIdentifierTypeIssuerAndSerialNumberContentInfoAlgorithmIdentifier" executed="True" success="True" time="0.000" asserts="11" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.EnvelopedCmsTest.ConstructorSubjectIdentifierTypeSubjectKeyIdentifierContentInfo" executed="True" success="True" time="0.000" asserts="11" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.EnvelopedCmsTest.ConstructorSubjectIdentifierTypeSubjectKeyIdentifierContentInfoAlgorithmIdentifier" executed="True" success="True" time="0.000" asserts="11" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.EnvelopedCmsTest.ConstructorSubjectIdentifierTypeUnknownContentInfo" executed="True" success="True" time="0.000" asserts="11" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.EnvelopedCmsTest.ConstructorSubjectIdentifierTypeUnknownContentInfoAlgorithmIdentifier" executed="True" success="True" time="0.000" asserts="11" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.EnvelopedCmsTest.DecodeNull" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.EnvelopedCmsTest.DecryptEmpty" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.EnvelopedCmsTest.DecryptRecipientInfoNull" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.EnvelopedCmsTest.DecryptRecipientInfoX509CertificateExCollectionNull" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.EnvelopedCmsTest.DecryptX509CertificateExCollectionNull" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.EnvelopedCmsTest.EncodeEmpty" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.EnvelopedCmsTest.EnvelopedCmsRecipientCollectionNull" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.EnvelopedCmsTest.EnvelopedCmsRecipientNull" executed="True" success="True" time="0.000" asserts="0" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="KeyTransRecipientInfoTest" success="True" time="0.005" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.KeyTransRecipientInfoTest.EncryptedKey_ModifyContent" executed="True" success="True" time="0.002" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.KeyTransRecipientInfoTest.IssuerAndSerialNumber" executed="True" success="True" time="0.001" asserts="10" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="Pkcs9AttributeObjectTest" success="True" time="0.018" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9AttributeObjectTest.ConstructorAsnEncodedDataNull" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9AttributeObjectTest.ConstructorEmpty" executed="True" success="True" time="0.000" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9AttributeObjectTest.ConstructorOidArray" executed="True" success="True" time="0.001" asserts="3" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9AttributeObjectTest.ConstructorOidArrayNull" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9AttributeObjectTest.ConstructorOidNullArray" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9AttributeObjectTest.ConstructorStringArray" executed="True" success="True" time="0.001" asserts="3" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9AttributeObjectTest.ConstructorStringArrayNull" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9AttributeObjectTest.ConstructorStringNullArray" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9AttributeObjectTest.CopyFrom_Null" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9AttributeObjectTest.CopyFrom_Self" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9AttributeObjectTest.CopyFrom_SigningTime_OidRaw" executed="True" success="True" time="0.005" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9AttributeObjectTest.CopyFrom_SigningTime_Raw" executed="True" success="True" time="0.001" asserts="0" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="Pkcs9ContentTypeTest" success="True" time="0.005" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9ContentTypeTest.Constructor_Empty" executed="True" success="True" time="0.001" asserts="6" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9ContentTypeTest.CopyFrom" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9ContentTypeTest.CopyFrom_BadData" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9ContentTypeTest.CopyFrom_Null" executed="True" success="True" time="0.000" asserts="0" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="Pkcs9DocumentDescriptionTest" success="True" time="0.010" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9DocumentDescriptionTest.Constructor_Array" executed="True" success="True" time="0.002" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9DocumentDescriptionTest.Constructor_ArrayNull" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9DocumentDescriptionTest.Constructor_Empty" executed="True" success="True" time="0.001" asserts="6" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9DocumentDescriptionTest.Constructor_String" executed="True" success="True" time="0.001" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9DocumentDescriptionTest.Constructor_StringNull" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9DocumentDescriptionTest.CopyFrom_Null" executed="True" success="True" time="0.000" asserts="0" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="Pkcs9DocumentNameTest" success="True" time="0.009" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9DocumentNameTest.Constructor_Array" executed="True" success="True" time="0.001" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9DocumentNameTest.Constructor_ArrayNull" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9DocumentNameTest.Constructor_Empty" executed="True" success="True" time="0.001" asserts="5" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9DocumentNameTest.Constructor_Empty_MessageDigest" executed="True" success="True" time="0.000" asserts="1">
+                                <categories>
+                                  <category name="NotDotNet" />
+                                </categories>
+                              </test-case>
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9DocumentNameTest.Constructor_String" executed="True" success="True" time="0.001" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9DocumentNameTest.Constructor_StringNull" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9DocumentNameTest.CopyFrom_Null" executed="True" success="True" time="0.000" asserts="0" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="Pkcs9MessageDigestTest" success="True" time="0.004" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9MessageDigestTest.Constructor_Empty" executed="True" success="True" time="0.001" asserts="6" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9MessageDigestTest.CopyFrom" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9MessageDigestTest.CopyFrom_BadData" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9MessageDigestTest.CopyFrom_Null" executed="True" success="True" time="0.000" asserts="0" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="Pkcs9SigningTimeTest" success="True" time="0.030" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9SigningTimeTest.Constructor_Bytes" executed="True" success="True" time="0.002" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9SigningTimeTest.Constructor_Bytes_Null" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9SigningTimeTest.Constructor_DateTime" executed="True" success="True" time="0.001" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9SigningTimeTest.Constructor_DateTime_1600" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9SigningTimeTest.Constructor_DateTime_1601" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9SigningTimeTest.Constructor_DateTime_After1950" executed="True" success="True" time="0.001" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9SigningTimeTest.Constructor_DateTime_After2050" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9SigningTimeTest.Constructor_DateTime_Before1950" executed="True" success="True" time="0.009" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9SigningTimeTest.Constructor_DateTime_Before2050" executed="True" success="True" time="0.001" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9SigningTimeTest.Constructor_DateTime_MaxValue" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9SigningTimeTest.Constructor_DateTime_MinValue" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9SigningTimeTest.Constructor_DateTime_Now" executed="True" success="True" time="0.001" asserts="5" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9SigningTimeTest.Constructor_Empty" executed="True" success="True" time="0.001" asserts="5" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9SigningTimeTest.CopyFrom" executed="True" success="True" time="0.002" asserts="4" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9SigningTimeTest.CopyFrom_Bad" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9SigningTimeTest.CopyFrom_Null" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.Pkcs9SigningTimeTest.DateTime_Mono10Release" executed="True" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="SignedCmsTest" success="True" time="0.158" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignedCmsTest.CheckSignatureCmsSignerIssuerAndSerialNumber" executed="True" success="True" time="0.009" asserts="5" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignedCmsTest.CheckSignatureCmsSignerSubjectKeyIdentifier" executed="True" success="True" time="0.006" asserts="5" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignedCmsTest.CheckSignatureCmsSignerUnknown" executed="True" success="True" time="0.001" asserts="5" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignedCmsTest.CheckSignatureDetachedSignedCms" executed="True" success="True" time="0.116" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignedCmsTest.ComputeEmptySignature" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignedCmsTest.ComputeEmptySignatureCmsSigner" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignedCmsTest.ComputeSignatureCmsSignerIssuerAndSerialNumber" executed="False">
+                                <reason>
+                                  <message><![CDATA[now broken everywhere]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignedCmsTest.ComputeSignatureCmsSignerSubjectKeyIdentifier" executed="False">
+                                <reason>
+                                  <message><![CDATA[now broken everywhere]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignedCmsTest.ComputeSignatureCmsSignerUnknown" executed="False">
+                                <reason>
+                                  <message><![CDATA[now broken everywhere]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignedCmsTest.ConstructorContentInfo" executed="True" success="True" time="0.001" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignedCmsTest.ConstructorContentInfoDetachedFalse" executed="True" success="True" time="0.000" asserts="4" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignedCmsTest.ConstructorContentInfoDetachedTrue" executed="True" success="True" time="0.000" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignedCmsTest.ConstructorContentInfoNull" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignedCmsTest.ConstructorContentInfoNullDetached" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignedCmsTest.ConstructorEmpty" executed="True" success="True" time="0.001" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignedCmsTest.ConstructorSubjectIdentifierTypeContentInfoNull" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignedCmsTest.ConstructorSubjectIdentifierTypeContentInfoNullDetached" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignedCmsTest.ConstructorSubjectIdentifierTypeIssuerAndSerialNumber" executed="True" success="True" time="0.001" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignedCmsTest.ConstructorSubjectIdentifierTypeIssuerAndSerialNumberContentInfo" executed="True" success="True" time="0.001" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignedCmsTest.ConstructorSubjectIdentifierTypeIssuerAndSerialNumberContentInfoDetached" executed="True" success="True" time="0.000" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignedCmsTest.ConstructorSubjectIdentifierTypeSubjectKeyIdentifier" executed="True" success="True" time="0.000" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignedCmsTest.ConstructorSubjectIdentifierTypeSubjectKeyIdentifierContentInfo" executed="True" success="True" time="0.000" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignedCmsTest.ConstructorSubjectIdentifierTypeSubjectKeyIdentifierContentInfoDetached" executed="True" success="True" time="0.000" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignedCmsTest.ConstructorSubjectIdentifierTypeUnknown" executed="True" success="True" time="0.000" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignedCmsTest.ConstructorSubjectIdentifierTypeUnknownContentInfo" executed="True" success="True" time="0.000" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignedCmsTest.ConstructorSubjectIdentifierTypeUnknownContentInfoDetached" executed="True" success="True" time="0.000" asserts="7" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="SignerInfoCollectionTest" success="True" time="0.015" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignerInfoCollectionTest.CopyTo_ArrayInt_MinusOne" executed="True" success="True" time="0.002" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignerInfoCollectionTest.CopyTo_ArrayInt_Null" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignerInfoCollectionTest.CopyTo_ArrayInt_One" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignerInfoCollectionTest.CopyTo_SignerInfoInt_MinusOne" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignerInfoCollectionTest.CopyTo_SignerInfoInt_Null" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignerInfoCollectionTest.CopyTo_SignerInfoInt_One" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignerInfoCollectionTest.CopyTo_SignerInfoInt_Zero" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignerInfoCollectionTest.EmptyCollection" executed="True" success="True" time="0.001" asserts="4" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignerInfoCollectionTest.Indexer_MinusOne" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignerInfoCollectionTest.Indexer_One" executed="True" success="True" time="0.001" asserts="0" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="SignerInfoTest" success="True" time="0.005" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignerInfoTest.IssuerAndSerialNumberProperties" executed="True" success="True" time="0.001" asserts="9" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SignerInfoTest.SubjectKeyIdentifierProperties" executed="True" success="True" time="0.003" asserts="9" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="SubjectIdentifierTest" success="True" time="0.003" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SubjectIdentifierTest.IssuerAndSerialNumber" executed="True" success="True" time="0.001" asserts="4" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Pkcs.SubjectIdentifierTest.SubjectKeyIdentifier" executed="True" success="True" time="0.001" asserts="2" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite name="ProtectedDataTest" success="True" time="0.186" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.System.Security.Cryptography.ProtectedDataTest.DataProtectionScope_All" executed="True" success="True" time="0.136" asserts="3" />
+                          <test-case name="MonoTests.System.Security.Cryptography.ProtectedDataTest.Protect_InvalidDataProtectionScope" executed="True" success="True" time="0.001" asserts="0">
+                            <categories>
+                              <category name="NotDotNet" />
+                            </categories>
+                          </test-case>
+                          <test-case name="MonoTests.System.Security.Cryptography.ProtectedDataTest.ProtectCurrentUser" executed="True" success="True" time="0.020" asserts="2" />
+                          <test-case name="MonoTests.System.Security.Cryptography.ProtectedDataTest.ProtectLocalMachine" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Security.Cryptography.ProtectedDataTest.ProtectNull" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Security.Cryptography.ProtectedDataTest.ProtectNullEntropy" executed="True" success="True" time="0.020" asserts="2" />
+                          <test-case name="MonoTests.System.Security.Cryptography.ProtectedDataTest.Unprotect_InvalidDataProtectionScope" executed="True" success="True" time="0.001" asserts="0">
+                            <categories>
+                              <category name="NotDotNet" />
+                            </categories>
+                          </test-case>
+                          <test-case name="MonoTests.System.Security.Cryptography.ProtectedDataTest.UnprotectNotProtectedData" executed="True" success="True" time="0.001" asserts="0" />
+                          <test-case name="MonoTests.System.Security.Cryptography.ProtectedDataTest.UnprotectNull" executed="True" success="True" time="0.000" asserts="0" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="ProtectedMemoryTest" success="True" time="0.357" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.System.Security.Cryptography.ProtectedMemoryTest.MemoryProtectionScope_All" executed="False">
+                            <reason>
+                              <message><![CDATA[Only supported under Windows 2000 SP3 and later]]></message>
+                            </reason>
+                          </test-case>
+                          <test-case name="MonoTests.System.Security.Cryptography.ProtectedMemoryTest.Protect_InvalidMemoryProtectionScope" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Security.Cryptography.ProtectedMemoryTest.ProtectBadDataLength" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Security.Cryptography.ProtectedMemoryTest.ProtectCrossProcess" executed="False">
+                            <reason>
+                              <message><![CDATA[Only supported under Windows 2000 SP3 and later]]></message>
+                            </reason>
+                          </test-case>
+                          <test-case name="MonoTests.System.Security.Cryptography.ProtectedMemoryTest.ProtectNull" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Security.Cryptography.ProtectedMemoryTest.ProtectSameLogon" executed="False">
+                            <reason>
+                              <message><![CDATA[Only supported under Windows 2000 SP3 and later]]></message>
+                            </reason>
+                          </test-case>
+                          <test-case name="MonoTests.System.Security.Cryptography.ProtectedMemoryTest.ProtectSameProcess" executed="False">
+                            <reason>
+                              <message><![CDATA[Only supported under Windows 2000 SP3 and later]]></message>
+                            </reason>
+                          </test-case>
+                          <test-case name="MonoTests.System.Security.Cryptography.ProtectedMemoryTest.Unprotect_InvalidMemoryProtectionScope" executed="True" success="True" time="0.001" asserts="0" />
+                          <test-case name="MonoTests.System.Security.Cryptography.ProtectedMemoryTest.UnprotectBadDataLength" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Security.Cryptography.ProtectedMemoryTest.UnprotectNull" executed="True" success="True" time="0.000" asserts="0" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="X509Certificates" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-suite name="X509Certificate2UITest" success="True" time="0.016" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.X509Certificates.X509Certificate2UITest.DisplayCertificate" executed="False">
+                                <reason>
+                                  <message><![CDATA[UI would block tests]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.System.Security.Cryptography.X509Certificates.X509Certificate2UITest.DisplayCertificate_Certificate_Empty" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.X509Certificates.X509Certificate2UITest.DisplayCertificate_IntPtr_Zero" executed="False">
+                                <reason>
+                                  <message><![CDATA[UI would block tests]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.System.Security.Cryptography.X509Certificates.X509Certificate2UITest.DisplayCertificate_Null" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.X509Certificates.X509Certificate2UITest.SelectFromCollection" executed="False">
+                                <reason>
+                                  <message><![CDATA[UI would block tests]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.System.Security.Cryptography.X509Certificates.X509Certificate2UITest.SelectFromCollection_Collection_Null" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.X509Certificates.X509Certificate2UITest.SelectFromCollection_Flags_Invalid" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.X509Certificates.X509Certificate2UITest.SelectFromCollection_IntPtr_Zero" executed="False">
+                                <reason>
+                                  <message><![CDATA[UI would block tests]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.System.Security.Cryptography.X509Certificates.X509Certificate2UITest.SelectFromCollection_Message_Null" executed="False">
+                                <reason>
+                                  <message><![CDATA[UI would block tests]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.System.Security.Cryptography.X509Certificates.X509Certificate2UITest.SelectFromCollection_Title_Null" executed="False">
+                                <reason>
+                                  <message><![CDATA[UI would block tests]]></message>
+                                </reason>
+                              </test-case>
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite name="Xml" success="True" time="7.063" asserts="0">
+                        <results>
+                          <test-suite name="DataObjectTest" success="True" time="0.039" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.DataObjectTest.EnvelopedObject" executed="True" success="True" time="0.007" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.DataObjectTest.GetXmlKeepDocument" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.DataObjectTest.ImportDataObject" executed="True" success="True" time="0.002" asserts="5" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.DataObjectTest.InvalidDataObject1" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.DataObjectTest.InvalidDataObject2" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.DataObjectTest.InvalidDataObject3" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.DataObjectTest.NewDataObject" executed="True" success="True" time="0.002" asserts="6" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.DataObjectTest.PropertySetMakesDocumentDifferent" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.DataObjectTest.SetDataAfterId" executed="True" success="True" time="0.018" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.DataObjectTest.SetMimeTypeAfterId" executed="True" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="DataReferenceTest" success="True" time="0.008" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.DataReferenceTest.LoadXml" executed="True" success="True" time="0.008" asserts="0" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="DSAKeyValueTest" success="True" time="1.278" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.DSAKeyValueTest.GenerateKey" executed="True" success="True" time="1.274" asserts="4" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.DSAKeyValueTest.ImportKey" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.DSAKeyValueTest.InvalidValue1" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.DSAKeyValueTest.InvalidValue2" executed="True" success="True" time="0.000" asserts="0" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="EncryptedXmlTest" success="True" time="0.230" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.EncryptedXmlTest.DecryptData_EncryptedDataNull" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.EncryptedXmlTest.DecryptData_SymmetricAlgorithmNull" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.EncryptedXmlTest.DecryptEncryptedKey_Null" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.EncryptedXmlTest.DecryptKey_KeyNull" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.EncryptedXmlTest.DecryptKey_SymmetricAlgorithmNull" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.EncryptedXmlTest.EncryptData_DataNull" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.EncryptedXmlTest.EncryptData_SymmetricAlgorithmNull" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.EncryptedXmlTest.EncryptData_XmlElementNull" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.EncryptedXmlTest.EncryptKey_KeyNull" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.EncryptedXmlTest.EncryptKey_SymmetricAlgorithmNull" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.EncryptedXmlTest.GetDecryptionIV_EncryptedDataNull" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.EncryptedXmlTest.GetDecryptionIV_StringNull" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.EncryptedXmlTest.GetDecryptionKey_EncryptedDataNull" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.EncryptedXmlTest.GetDecryptionKey_StringNull" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.EncryptedXmlTest.GetIdElement_StringNull" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.EncryptedXmlTest.GetIdElement_XmlDocumentNull" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.EncryptedXmlTest.ReplaceData_EncryptedDataNull" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.EncryptedXmlTest.ReplaceData_XmlElementNull" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.EncryptedXmlTest.ReplaceElement_EncryptedDataNull" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.EncryptedXmlTest.ReplaceElement_XmlElementNull" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.EncryptedXmlTest.RoundtripSample1" executed="True" success="True" time="0.012" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.EncryptedXmlTest.Sample1" executed="True" success="True" time="0.124" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.EncryptedXmlTest.Sample2" executed="True" success="True" time="0.014" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.EncryptedXmlTest.Sample3" executed="True" success="True" time="0.053" asserts="0" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="KeyInfoNameTest" success="True" time="0.005" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoNameTest.ImportKeyValue" executed="True" success="True" time="0.001" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoNameTest.InvalidValue1" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoNameTest.InvalidValue2" executed="True" success="True" time="0.000" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoNameTest.NewKeyValue" executed="True" success="True" time="0.000" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="KeyInfoNodeTest" success="True" time="0.003" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoNodeTest.ImportKeyNode" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoNodeTest.InvalidKeyNode" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoNodeTest.NewKeyNode" executed="True" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="KeyInfoRetrievalMethodTest" success="True" time="0.005" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoRetrievalMethodTest.InvalidKeyNode1" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoRetrievalMethodTest.InvalidKeyNode2" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoRetrievalMethodTest.TestImportKeyNode" executed="True" success="True" time="0.000" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoRetrievalMethodTest.TestNewEmptyKeyNode" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoRetrievalMethodTest.TestNewKeyNode" executed="True" success="True" time="0.000" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="KeyInfoTest" success="True" time="0.020" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoTest.Complex" executed="True" success="True" time="0.004" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoTest.DSAKeyValue" executed="True" success="True" time="0.001" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoTest.EmptyKeyInfo" executed="True" success="True" time="0.000" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoTest.ImportKeyNode" executed="True" success="True" time="0.003" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoTest.InvalidXml" executed="True" success="True" time="0.001" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoTest.KeyInfoName" executed="True" success="True" time="0.000" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoTest.KeyInfoNode" executed="True" success="True" time="0.001" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoTest.NullClause" executed="True" success="True" time="0.000" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoTest.NullXml" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoTest.RetrievalMethod" executed="True" success="True" time="0.000" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoTest.RSAKeyValue" executed="True" success="True" time="0.001" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoTest.X509Data" executed="True" success="True" time="0.001" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="KeyInfoX509DataTest" success="True" time="0.034" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoX509DataTest.AddCertificate_Null" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoX509DataTest.AddIssuerSerial_Null_Serial" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoX509DataTest.AddSubjectKeyId_Byte_Null" executed="True" success="True" time="0.001" asserts="5" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoX509DataTest.AddSubjectName_Null" executed="True" success="True" time="0.001" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoX509DataTest.Complex" executed="True" success="True" time="0.007" asserts="9" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoX509DataTest.Constructor_Empty" executed="True" success="True" time="0.001" asserts="6" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoX509DataTest.Constructor_X509Certificate" executed="True" success="True" time="0.004" asserts="3" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoX509DataTest.Constructor_X509Certificate_Null" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoX509DataTest.Constructor_X509Certificate_X509IncludeOption" executed="True" success="True" time="0.001" asserts="5" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoX509DataTest.Constructor_X509Certificate_X509IncludeOptionBad" executed="True" success="True" time="0.001" asserts="6" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoX509DataTest.Constructor_X509CertificateByteArray_Null" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoX509DataTest.Constructor_X509CertificateNull_X509IncludeOption" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoX509DataTest.CRL" executed="True" success="True" time="0.001" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoX509DataTest.ImportX509Data" executed="True" success="True" time="0.003" asserts="4" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoX509DataTest.InvalidKeyNode1" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoX509DataTest.InvalidKeyNode2" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.KeyInfoX509DataTest.InvalidKeyNode3" executed="True" success="True" time="0.000" asserts="0" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="ReferenceTest" success="True" time="0.027" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.ReferenceTest.AddAllTransforms" executed="True" success="True" time="0.004" asserts="3">
+                                <categories>
+                                  <category name="NotDotNet" />
+                                </categories>
+                              </test-case>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.ReferenceTest.Bad1" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.ReferenceTest.Bad2" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.ReferenceTest.KeepDocument" executed="True" success="True" time="0.010" asserts="3" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.ReferenceTest.LoadAllTransforms" executed="True" success="True" time="0.001" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.ReferenceTest.LoadBase64Transform" executed="True" success="True" time="0.001" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.ReferenceTest.LoadC14NTransform" executed="True" success="True" time="0.000" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.ReferenceTest.LoadC14NWithCommentsTransforms" executed="True" success="True" time="0.001" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.ReferenceTest.LoadEnvelopedSignatureTransforms" executed="True" success="True" time="0.000" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.ReferenceTest.LoadNoTransform" executed="True" success="True" time="0.001" asserts="4" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.ReferenceTest.LoadXPathTransforms" executed="True" success="True" time="0.001" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.ReferenceTest.LoadXsltTransforms" executed="True" success="True" time="0.001" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.ReferenceTest.Null" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.ReferenceTest.Properties" executed="True" success="True" time="0.001" asserts="8" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="RSAKeyValueTest" success="True" time="0.250" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.RSAKeyValueTest.GeneratedKey" executed="True" success="True" time="0.246" asserts="4" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.RSAKeyValueTest.ImportKey" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.RSAKeyValueTest.InvalidValue1" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.RSAKeyValueTest.InvalidValue2" executed="True" success="True" time="0.000" asserts="0" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="SignatureTest" success="True" time="0.012" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignatureTest.Load" executed="True" success="True" time="0.004" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignatureTest.LoadXmlMalformed1" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignatureTest.LoadXmlMalformed2" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignatureTest.Signature1" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignatureTest.Signature2" executed="True" success="True" time="0.000" asserts="0" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="SignedInfoTest" success="True" time="0.022" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedInfoTest.Empty" executed="True" success="True" time="0.000" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedInfoTest.EmptyException" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedInfoTest.EmptyReferenceWithoutSetProperty" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedInfoTest.EmptyReferenceWithSetProperty" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedInfoTest.GetXmlWithoutSetProperty" executed="True" success="True" time="0.001" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedInfoTest.Load" executed="True" success="True" time="0.001" asserts="4" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedInfoTest.NotSupportedCopyTo" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedInfoTest.NotSupportedCount" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedInfoTest.NotSupportedIsReadOnly" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedInfoTest.NotSupportedIsSynchronized" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedInfoTest.NotSupportedSyncRoot" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedInfoTest.Properties" executed="True" success="True" time="0.000" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedInfoTest.References" executed="True" success="True" time="0.000" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedInfoTest.SignatureLength" executed="True" success="True" time="0.001" asserts="6" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="SignedXmlTest" success="True" time="2.201" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.AddObject_Null" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.AddReference_Null" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.AsymmetricDSASignature" executed="True" success="True" time="1.011" asserts="10" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.AsymmetricDSAVerify" executed="True" success="True" time="0.021" asserts="3" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.AsymmetricRSASignature" executed="True" success="True" time="0.196" asserts="10" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.AsymmetricRSAVerify" executed="True" success="True" time="0.003" asserts="3" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.CheckSignatureEmpty" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.CheckSignatureEmptySafe" executed="True" success="True" time="0.000" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.ComputeSignatureMissingReferencedObject" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.ComputeSignatureNoSigningKey" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.Constructor_Empty" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.Constructor_XmlDocument" executed="True" success="True" time="0.002" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.Constructor_XmlDocument_Null" executed="False">
+                                <reason>
+                                  <message><![CDATA[2.0 throws a NullReferenceException - reported as FDBK25892]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.Constructor_XmlElement" executed="True" success="True" time="0.002" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.Constructor_XmlElement_Null" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.Constructor_XmlElement_WithoutLoadXml" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.DataReferenceToNonDataObject" executed="True" success="True" time="0.693" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.DigestValue_LF" executed="True" success="True" time="0.038" asserts="4" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.GetIdElement" executed="True" success="True" time="0.002" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.GetIdElement_Null" executed="True" success="True" time="0.000" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.GetPublicKey" executed="True" success="True" time="0.001" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.GetXml_WithoutInfo" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.HmacMustBeMultipleOfEightBits" executed="True" success="True" time="0.068" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.LoadXml_Null" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.MultipleX509Certificates" executed="True" success="True" time="0.073" asserts="4" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.SignatureMethodMismatch" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.SignedXML_LF_Valid" executed="False">
+                                <reason>
+                                  <message><![CDATA[This is a bad test case which should basically just check the computed signature value instead of comparing XML document literal string, and thus caused inconsistency between .NET 1.1 and .NET 2.0. Not deleting this test case, to easily find the reason for potentially happening regression in the future (which should not waste time).]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.SignElementWithoutPrefixedNamespace" executed="True" success="True" time="0.003" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.SignElementWithPrefixedNamespace" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.SignHMAC_RIPEMD160" executed="True" success="True" time="0.008" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.SignHMAC_RIPEMD160_Bad" executed="True" success="True" time="0.001" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.SignHMAC_SHA256" executed="True" success="True" time="0.001" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.SignHMAC_SHA256_Bad" executed="True" success="True" time="0.001" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.SignHMAC_SHA384" executed="True" success="True" time="0.003" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.SignHMAC_SHA384_Bad" executed="True" success="True" time="0.001" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.SignHMAC_SHA512" executed="True" success="True" time="0.004" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.SignHMAC_SHA512_Bad" executed="True" success="True" time="0.002" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.SigningKeyName" executed="True" success="True" time="0.000" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.StaticValues" executed="True" success="True" time="0.000" asserts="8" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.SymmetricHMACSHA1Signature" executed="True" success="True" time="0.002" asserts="11" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.SymmetricHMACSHA1Verify" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.SymmetricMACTripleDESSignature" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.VerifyHMAC_FullLength" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.VerifyHMAC_HalfLength" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.VerifyHMAC_HMACOutputLength_Invalid" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.VerifyHMAC_HMACOutputLength_Signature_Mismatch" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.VerifyHMAC_MinimumLength" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.VerifyHMAC_RIPEMD160" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.VerifyHMAC_SHA256" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.VerifyHMAC_SHA384" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.VerifyHMAC_SHA512" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.VerifyHMAC_SmallerHalfLength" executed="True" success="True" time="0.001" asserts="0">
+                                <categories>
+                                  <category name="NotDotNet" />
+                                </categories>
+                              </test-case>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.VerifyHMAC_SmallerThanMinimumLength" executed="True" success="True" time="0.001" asserts="0">
+                                <categories>
+                                  <category name="NotDotNet" />
+                                </categories>
+                              </test-case>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.SignedXmlTest.VerifyHMAC_ZeroLength" executed="True" success="True" time="0.002" asserts="0">
+                                <categories>
+                                  <category name="NotDotNet" />
+                                </categories>
+                              </test-case>
+                            </results>
+                          </test-suite>
+                          <test-suite name="TransformChainTest" success="True" time="0.003" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.TransformChainTest.EmptyChain" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.TransformChainTest.FullChain" executed="True" success="True" time="0.001" asserts="12" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="TransformTest" success="True" time="0.001" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.TransformTest.GetDigestedOutput_Null" executed="True" success="True" time="0.000" asserts="0" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="XmlDecryptionTransformTest" success="True" time="0.002" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDecryptionTransformTest.IsTargetElement_StringNull" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDecryptionTransformTest.IsTargetElement_XmlElementNull" executed="True" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="XmlDsigBase64TransformTest" success="True" time="0.017" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigBase64TransformTest.GetInnerXml" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigBase64TransformTest.LoadInputAsStream" executed="True" success="True" time="0.003" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigBase64TransformTest.LoadInputAsXmlDocument" executed="True" success="True" time="0.003" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigBase64TransformTest.LoadInputAsXmlNodeList" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigBase64TransformTest.LoadInputAsXmlNodeListFromXPath" executed="True" success="True" time="0.001" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigBase64TransformTest.LoadInputWithUnsupportedType" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigBase64TransformTest.Properties" executed="True" success="True" time="0.001" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigBase64TransformTest.Types" executed="True" success="True" time="0.001" asserts="6" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigBase64TransformTest.UnsupportedOutput" executed="True" success="True" time="0.001" asserts="0" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="XmlDsigC14NTransformTest" success="True" time="1.414" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NTransformTest.C14NSpecExample1" executed="True" success="True" time="0.007" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NTransformTest.C14NSpecExample2" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NTransformTest.C14NSpecExample3" executed="True" success="True" time="0.029" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NTransformTest.C14NSpecExample4" executed="True" success="True" time="0.003" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NTransformTest.C14NSpecExample5" executed="True" success="True" time="1.353" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NTransformTest.C14NSpecExample6" executed="True" success="True" time="0.002" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NTransformTest.Constructor1" executed="True" success="True" time="0.001" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NTransformTest.Constructor2" executed="True" success="True" time="0.000" asserts="14" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NTransformTest.GetDigestedOutput_Null" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NTransformTest.GetInnerXml" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NTransformTest.LoadInputAsStream" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NTransformTest.LoadInputAsXmlDocument" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NTransformTest.LoadInputAsXmlNodeList" executed="True" success="True" time="0.001" asserts="1">
+                                <categories>
+                                  <category name="NotDotNet" />
+                                </categories>
+                              </test-case>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NTransformTest.LoadInputAsXmlNodeList2" executed="True" success="True" time="0.001" asserts="1">
+                                <categories>
+                                  <category name="NotDotNet" />
+                                </categories>
+                              </test-case>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NTransformTest.LoadInputWithUnsupportedType" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NTransformTest.PrefixlessNamespaceOutput" executed="True" success="True" time="0.001" asserts="3" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NTransformTest.PropagatedNamespaces" executed="False">
+                                <reason>
+                                  <message><![CDATA[find out how PropagatedNamespaces returns non-null instance on .NET]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NTransformTest.SimpleNamespacePrefixes" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NTransformTest.UnsupportedOutput" executed="True" success="True" time="0.001" asserts="0" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="XmlDsigC14NWithCommentsTransformTest" success="True" time="0.592" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NWithCommentsTransformTest.C14NSpecExample1" executed="True" success="True" time="0.086" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NWithCommentsTransformTest.C14NSpecExample1_WithoutResolver" executed="False">
+                                <reason>
+                                  <message><![CDATA[SecurityManager isn't enabled.]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NWithCommentsTransformTest.C14NSpecExample2" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NWithCommentsTransformTest.C14NSpecExample3" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NWithCommentsTransformTest.C14NSpecExample4" executed="True" success="True" time="0.003" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NWithCommentsTransformTest.C14NSpecExample5" executed="True" success="True" time="0.340" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NWithCommentsTransformTest.C14NSpecExample6" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NWithCommentsTransformTest.GetInnerXml" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NWithCommentsTransformTest.Properties" executed="True" success="True" time="0.001" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigC14NWithCommentsTransformTest.UnsupportedOutput" executed="True" success="True" time="0.000" asserts="0" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="XmlDsigEnvelopedSignatureTransformTest" success="True" time="0.007" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigEnvelopedSignatureTransformTest.Constructor1" executed="True" success="True" time="0.001" asserts="8" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigEnvelopedSignatureTransformTest.Constructor2" executed="True" success="True" time="0.000" asserts="16" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigEnvelopedSignatureTransformTest.GetInnerXml" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigEnvelopedSignatureTransformTest.LoadInputAsXmlDocument" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigEnvelopedSignatureTransformTest.LoadInputAsXmlNodeList" executed="True" success="True" time="0.001" asserts="0" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="XmlDsigExcC14NTransformTest" success="True" time="0.732" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigExcC14NTransformTest.Constructor1" executed="True" success="True" time="0.001" asserts="8" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigExcC14NTransformTest.Constructor2" executed="True" success="True" time="0.001" asserts="16" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigExcC14NTransformTest.Constructor3" executed="True" success="True" time="0.001" asserts="24" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigExcC14NTransformTest.Constructor4" executed="True" success="True" time="0.001" asserts="48" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigExcC14NTransformTest.ExcC14NSpecExample1" executed="True" success="True" time="0.482" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigExcC14NTransformTest.ExcC14NSpecExample2" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigExcC14NTransformTest.ExcC14NSpecExample3" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigExcC14NTransformTest.ExcC14NSpecExample4" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigExcC14NTransformTest.ExcC14NSpecExample5" executed="True" success="True" time="0.226" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigExcC14NTransformTest.ExcC14NSpecExample6" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigExcC14NTransformTest.GetDigestedOutput_Null" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigExcC14NTransformTest.GetInnerXml" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigExcC14NTransformTest.LoadInputAsStream" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigExcC14NTransformTest.LoadInputAsXmlDocument" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigExcC14NTransformTest.LoadInputAsXmlNodeList" executed="True" success="True" time="0.000" asserts="1">
+                                <categories>
+                                  <category name="NotDotNet" />
+                                </categories>
+                              </test-case>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigExcC14NTransformTest.LoadInputAsXmlNodeList2" executed="True" success="True" time="0.000" asserts="1">
+                                <categories>
+                                  <category name="NotDotNet" />
+                                </categories>
+                              </test-case>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigExcC14NTransformTest.LoadInputWithUnsupportedType" executed="False">
+                                <reason>
+                                  <message><![CDATA[LAMESPEC: input MUST be one of InputType - but no exception is thrown (not documented)]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigExcC14NTransformTest.SimpleNamespacePrefixes" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigExcC14NTransformTest.Types" executed="True" success="True" time="0.000" asserts="6" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigExcC14NTransformTest.UnsupportedOutput" executed="True" success="True" time="0.000" asserts="0" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="XmlDsigExcC14NWithCommentsTransformTest" success="True" time="0.006" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigExcC14NWithCommentsTransformTest.Constructor1" executed="True" success="True" time="0.001" asserts="8" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigExcC14NWithCommentsTransformTest.Constructor2" executed="True" success="True" time="0.001" asserts="24" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigExcC14NWithCommentsTransformTest.GetInnerXml" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigExcC14NWithCommentsTransformTest.InputTypes" executed="True" success="True" time="0.000" asserts="6" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigExcC14NWithCommentsTransformTest.OutputTypes" executed="True" success="True" time="0.000" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="XmlDsigXPathTransformTest" success="True" time="0.027" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigXPathTransformTest.GetInnerXml" executed="False">
+                                <reason>
+                                  <message><![CDATA[throws a NullReferenceException - but it's (kind of internal)]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigXPathTransformTest.LoadInnerXml" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigXPathTransformTest.LoadInputAsStream_EmptyXPath" executed="True" success="True" time="0.004" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigXPathTransformTest.LoadInputAsXmlDocument_EmptyXPath" executed="True" success="True" time="0.002" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigXPathTransformTest.LoadInputAsXmlNodeList_EmptyXPath" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigXPathTransformTest.OnlyInner" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigXPathTransformTest.Properties" executed="True" success="True" time="0.001" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigXPathTransformTest.TransformSimple" executed="True" success="True" time="0.005" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigXPathTransformTest.UnsupportedInput" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigXPathTransformTest.UnsupportedOutput" executed="True" success="True" time="0.000" asserts="0" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="XmlDsigXsltTransformTest" success="True" time="0.067" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigXsltTransformTest.Constructor1" executed="True" success="True" time="0.001" asserts="7" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigXsltTransformTest.Constructor2" executed="True" success="True" time="0.000" asserts="14" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigXsltTransformTest.EmbeddedStylesheet" executed="True" success="True" time="0.038" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigXsltTransformTest.EmptyXslt" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigXsltTransformTest.GetInnerXml" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigXsltTransformTest.InvalidXslt" executed="True" success="True" time="0.002" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigXsltTransformTest.Load2" executed="True" success="True" time="0.010" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigXsltTransformTest.LoadInnerXml" executed="True" success="True" time="0.001" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigXsltTransformTest.LoadInputAsStream" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigXsltTransformTest.LoadInputAsXmlDocument" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigXsltTransformTest.LoadInputAsXmlNodeList" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigXsltTransformTest.OnlyInner" executed="True" success="True" time="0.001" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigXsltTransformTest.UnsupportedInput" executed="True" success="True" time="0.000" asserts="0" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlDsigXsltTransformTest.UnsupportedOutput" executed="True" success="True" time="0.000" asserts="0" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="XmlLicenseTransformTest" success="True" time="0.004" asserts="0">
+                            <results>
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlLicenseTransformTest.Constructor1" executed="True" success="True" time="0.001" asserts="6" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlLicenseTransformTest.GetInnerXml" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlLicenseTransformTest.InputTypes" executed="True" success="True" time="0.000" asserts="2" />
+                              <test-case name="MonoTests.System.Security.Cryptography.Xml.XmlLicenseTransformTest.OutputTypes" executed="True" success="True" time="0.000" asserts="2" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite name="Permissions" success="True" time="0.028" asserts="0">
+                    <results>
+                      <test-suite name="DataProtectionPermissionAttributeTest" success="True" time="0.027" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.System.Security.Permissions.DataProtectionPermissionAttributeTest.Action" executed="True" success="True" time="0.001" asserts="9" />
+                          <test-case name="MonoTests.System.Security.Permissions.DataProtectionPermissionAttributeTest.Action_Invalid" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Security.Permissions.DataProtectionPermissionAttributeTest.Attributes" executed="True" success="True" time="0.001" asserts="5" />
+                          <test-case name="MonoTests.System.Security.Permissions.DataProtectionPermissionAttributeTest.Default" executed="True" success="True" time="0.001" asserts="8" />
+                          <test-case name="MonoTests.System.Security.Permissions.DataProtectionPermissionAttributeTest.Flags" executed="True" success="True" time="0.011" asserts="10" />
+                          <test-case name="MonoTests.System.Security.Permissions.DataProtectionPermissionAttributeTest.Flags_Invalid" executed="True" success="True" time="0.002" asserts="1" />
+                          <test-case name="MonoTests.System.Security.Permissions.DataProtectionPermissionAttributeTest.ProtectData" executed="True" success="True" time="0.000" asserts="3" />
+                          <test-case name="MonoTests.System.Security.Permissions.DataProtectionPermissionAttributeTest.ProtectMemory" executed="True" success="True" time="0.000" asserts="3" />
+                          <test-case name="MonoTests.System.Security.Permissions.DataProtectionPermissionAttributeTest.UnprotectData" executed="True" success="True" time="0.000" asserts="3" />
+                          <test-case name="MonoTests.System.Security.Permissions.DataProtectionPermissionAttributeTest.UnprotectMemory" executed="True" success="True" time="0.000" asserts="3" />
+                          <test-case name="MonoTests.System.Security.Permissions.DataProtectionPermissionAttributeTest.Unrestricted" executed="True" success="True" time="0.001" asserts="3" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
