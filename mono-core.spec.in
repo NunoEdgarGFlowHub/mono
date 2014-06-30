@@ -19,6 +19,7 @@ BuildRequires:  fdupes
 BuildRequires:  gcc-c++
 BuildRequires:  pkgconfig
 BuildRequires:  zlib-devel
+BuildRequires:  gettext-tools
 %if %llvm == yes
 BuildRequires:  llvm-mono-devel
 %endif
