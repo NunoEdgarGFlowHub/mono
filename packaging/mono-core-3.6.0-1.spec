@@ -1,4 +1,5 @@
 %define ext_man .gz
+%undefine _missing_build_ids_terminate_build
 
 # Mono's configure thinks we are cross-compiling if these are not equal.
 %define _target_platform %{_host}
